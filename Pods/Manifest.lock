@@ -1,0 +1,13 @@
+PODS:
+  - DKChainableAnimationKit (1.5.0)
+  - Socket.IO-Client-Swift (2.3.6)
+
+DEPENDENCIES:
+  - DKChainableAnimationKit (~> 1.5.0)
+  - Socket.IO-Client-Swift (~> 2.3)
+
+SPEC CHECKSUMS:
+  DKChainableAnimationKit: 7f015f1cd9f9209626ef6174b303f978386f45ea
+  Socket.IO-Client-Swift: a96239c5a07672ecc0fa8a61f80c6139cfe1f569
+
+COCOAPODS: 0.37.2

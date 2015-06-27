@@ -1,0 +1,6 @@
+framework module DKChainableAnimationKit {
+  umbrella header "Pods-Shmile-DKChainableAnimationKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
