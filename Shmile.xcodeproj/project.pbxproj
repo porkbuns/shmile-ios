@@ -13,7 +13,7 @@
 		FFE1FBD91B3F4E1300C31864 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE1FBD81B3F4E1300C31864 /* Images.xcassets */; };
 		FFE1FBDC1B3F4E1300C31864 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFE1FBDA1B3F4E1300C31864 /* LaunchScreen.xib */; };
 		FFE1FBE81B3F4E1300C31864 /* ShmileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE1FBE71B3F4E1300C31864 /* ShmileTests.swift */; };
-		FFE1FBF21B3F4E7700C31864 /* ViewControllers in Resources */ = {isa = PBXBuildFile; fileRef = FFE1FBF11B3F4E7700C31864 /* ViewControllers */; };
+		FFE1FBF51B3F54F800C31864 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE1FBF41B3F54F800C31864 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,7 @@
 		FFE1FBE11B3F4E1300C31864 /* ShmileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShmileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE1FBE61B3F4E1300C31864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFE1FBE71B3F4E1300C31864 /* ShmileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShmileTests.swift; sourceTree = "<group>"; };
-		FFE1FBF11B3F4E7700C31864 /* ViewControllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewControllers; sourceTree = "<group>"; };
+		FFE1FBF41B3F54F800C31864 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ViewControllers/ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 		FFE1FBCE1B3F4E1300C31864 /* Shmile */ = {
 			isa = PBXGroup;
 			children = (
-				FFE1FBF11B3F4E7700C31864 /* ViewControllers */,
+				FFE1FBF31B3F54E500C31864 /* ViewControllers */,
 				FFE1FBD11B3F4E1300C31864 /* AppDelegate.swift */,
 				FFE1FBD51B3F4E1300C31864 /* Main.storyboard */,
 				FFE1FBD81B3F4E1300C31864 /* Images.xcassets */,
@@ -134,6 +134,14 @@
 				FFE1FBE61B3F4E1300C31864 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFE1FBF31B3F54E500C31864 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FFE1FBF41B3F54F800C31864 /* ViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +228,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFE1FBD71B3F4E1300C31864 /* Main.storyboard in Resources */,
-				FFE1FBF21B3F4E7700C31864 /* ViewControllers in Resources */,
 				FFE1FBDC1B3F4E1300C31864 /* LaunchScreen.xib in Resources */,
 				FFE1FBD91B3F4E1300C31864 /* Images.xcassets in Resources */,
 			);
@@ -289,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFE1FBD21B3F4E1300C31864 /* AppDelegate.swift in Sources */,
+				FFE1FBF51B3F54F800C31864 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
