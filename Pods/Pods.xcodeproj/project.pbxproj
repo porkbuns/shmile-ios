@@ -7,279 +7,279 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08A1DF09DC069D4C6DEDB3A8 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BA4488C221C06B749F40F8 /* SocketEngine.swift */; };
-		0FCB1A0BAAF7DEE37157E9D5 /* DKChainableAnimationKit+Bezier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7195BF2C6F24CF9223E4FC /* DKChainableAnimationKit+Bezier.swift */; };
-		22D2A7B5C83EB770958F3A60 /* Pods-Shmile-Socket.IO-Client-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA1D9568F93E48CD76FC26D /* Pods-Shmile-Socket.IO-Client-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28CC4B388FB57A807ACB36B2 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B1E0C7DA6FA4EDCC91AF57 /* SocketTypes.swift */; };
-		29D4D631B636D7A42AA2BEF5 /* Pods-Shmile-DKChainableAnimationKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E291F59E4B8832446E64EDD /* Pods-Shmile-DKChainableAnimationKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AAA705B3A9129897FF65671 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342CFC4D5B644713FFD5E4A9 /* Foundation.framework */; };
-		2B143C0B81B0FADE50C7108F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342CFC4D5B644713FFD5E4A9 /* Foundation.framework */; };
-		351CB3447110EF3B03450163 /* DKChainableAnimationKit+Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855ED3E337B15FA1EC25E988 /* DKChainableAnimationKit+Extra.swift */; };
-		40AF0B86A263AD2AA481D27E /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE6970F2D328CEF28F0B766 /* WebSocket.swift */; };
-		4AC5CCDBAFD2774AE0B90550 /* SocketFixUTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489ADD5FF4E3E37B1B98890A /* SocketFixUTF8.swift */; };
-		5E849759444650B611EE6D00 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A56199817B3F1C5ED885671 /* SocketLogger.swift */; };
-		64AC038DF7917EB777401CCA /* SocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2C93C362F65A6902CD7A5 /* SocketParser.swift */; };
-		6816255B3FD40858F4E80252 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7349D77128CB91F0244EAB0C /* SocketIOClient.swift */; };
-		6919812022FAD9CBAE33F607 /* Pods-Shmile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5141EDBC002A6E46ACD837 /* Pods-Shmile-dummy.m */; };
-		7DCB3F263127E820A6813B27 /* Pods-Shmile-DKChainableAnimationKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D77E65F4FA03AB3735AE606F /* Pods-Shmile-DKChainableAnimationKit-dummy.m */; };
-		8D981EA74A844D067AB3EED8 /* DKChainableAnimationKit+Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663590F784A777A55B788722 /* DKChainableAnimationKit+Anchor.swift */; };
-		9447D272241A328861E6171A /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97B1AD44C10ED4A6A55BDB7 /* SocketEngineClient.swift */; };
-		94A99B23B2CBBA46FC6BF529 /* UIView+AnimationKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106E0F257409A106411D7109 /* UIView+AnimationKit.swift */; };
-		A4CAA39FE358A7536E251C0D /* Pods-Shmile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC4CEBFCA708BCE1DA3ED789 /* Pods-Shmile-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9E1C281481DECCD6C101670 /* DKKeyframeAnimationFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD39A0B61CABB9013A26A089 /* DKKeyframeAnimationFunction.swift */; };
-		B200A7A24CA2FD9949FEA7F8 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3168E9A152FA1126594A584F /* SocketPacket.swift */; };
-		B7F9765F8EDEEC1510BA547F /* Pods-Shmile-Socket.IO-Client-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2860509F570737B1D103BC /* Pods-Shmile-Socket.IO-Client-Swift-dummy.m */; };
-		C0C0F81C6FCF82D36D8032A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342CFC4D5B644713FFD5E4A9 /* Foundation.framework */; };
-		C19CA95A272300B4C726B4A1 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA159D58FBA6D80E4F891A7E /* SocketAnyEvent.swift */; };
-		DD6F02D67566A1C53ACD73C5 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76636AA1D9B4D5133C247320 /* SocketEventHandler.swift */; };
-		DEA1B77B9115E8EE5D6FBAAA /* DKChainableAnimationKit+Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7945CE214E98342B56B4CDEA /* DKChainableAnimationKit+Transform.swift */; };
-		E07F97630DF7BBA2D488C815 /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F36994270B04B3ED90043D2 /* SwiftRegex.swift */; };
-		E2F69C7F08AF9EEA12B6ED6C /* DKKeyFrameAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CD7E2E3FBE1AF9AFD0C4FD /* DKKeyFrameAnimation.swift */; };
-		EC04DA662E902520F3AD2175 /* DKChainableAnimationKit+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFCC4E30FEF4A7823C6E4D1 /* DKChainableAnimationKit+Frame.swift */; };
-		EE4DB569C04FA6E03F12BFFF /* DKChainableAnimationKit+Effects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272FECA3851E785FEF6B4880 /* DKChainableAnimationKit+Effects.swift */; };
-		F46C1A9C09C77A7383A820B3 /* DKChainableAnimationKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D75882B796B3A2D1C3FDFAC /* DKChainableAnimationKit.swift */; };
-		FDF327BFFC04DEC2B8656B63 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2621D2672DD70B2D4A6CBC0F /* SocketAckManager.swift */; };
+		0B9C75CFB70CB222A1054BD1 /* SocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20872B3D632851DA2C51B4CF /* SocketParser.swift */; };
+		1CED18AF2423F1EE0FDB810D /* DKChainableAnimationKit+Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF327EEACCF4217B297E579 /* DKChainableAnimationKit+Transform.swift */; };
+		2374CF82F246443C5F65B639 /* Pods-Shmile-Socket.IO-Client-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55DB32FBB5D3AF8612EFDA19 /* Pods-Shmile-Socket.IO-Client-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A7E797FACDBDD02DC5AF2E1 /* Pods-Shmile-DKChainableAnimationKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD145048D0C0208F3B4EE135 /* Pods-Shmile-DKChainableAnimationKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		394D2EC93A18172570278656 /* DKChainableAnimationKit+Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323E33A1D13DB769D6FBFEEC /* DKChainableAnimationKit+Anchor.swift */; };
+		40A98B160E93562DD3A7D8C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3F2944EDCEA0A4BDD07A7A /* Foundation.framework */; };
+		4A723265617C2B36490C78C9 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EB4B67BCF9C081D1E7DD5D /* SocketIOClient.swift */; };
+		58CB429A41A8C076A14EE3B9 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB545BF1A6C54EA12E0AF07 /* WebSocket.swift */; };
+		5978A8933C7538FBD1CF0741 /* DKChainableAnimationKit+Bezier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB85E3AE0E3AE1D555E8760E /* DKChainableAnimationKit+Bezier.swift */; };
+		69D81A609E6C02E851D3CAF3 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B751A54CDF4CEDC0BD3FFA /* SocketTypes.swift */; };
+		7C58CBCC61F17ADF16744F23 /* DKKeyFrameAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6F85B4EB91EF84C6BBCB6 /* DKKeyFrameAnimation.swift */; };
+		87CBDBD143B90F7CACBC5660 /* DKChainableAnimationKit+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D16018012D2B00F32C66CC /* DKChainableAnimationKit+Frame.swift */; };
+		8A5B61707E32A6C72CE2B74C /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C09A0B2D1FF78110819984D /* SocketPacket.swift */; };
+		8F9C8ADFB77299465E8C1B41 /* SocketFixUTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743CC200445AAEA1ACE4B7E7 /* SocketFixUTF8.swift */; };
+		9213F9A32CB95997FD80B3BC /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68091CBF3205AD0EDCEB8108 /* SwiftRegex.swift */; };
+		925F20EBB705C5CB919C9AF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3F2944EDCEA0A4BDD07A7A /* Foundation.framework */; };
+		9D60288BA60F14839CDA8D40 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85365EB403C02A6BAF2C49CE /* SocketEngineClient.swift */; };
+		A1AE892CCC75889321F34591 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9B2F37AF9546FE4CD4A491 /* SocketAckManager.swift */; };
+		AC10FB8698FCEA4E6597E759 /* DKChainableAnimationKit+Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6116C0F8A27E46356E15C /* DKChainableAnimationKit+Extra.swift */; };
+		B141111CFF95669389D9DB81 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4F60EABB2DA2DC8229795C /* SocketEventHandler.swift */; };
+		B87177225FB97714D172B96D /* Pods-Shmile-DKChainableAnimationKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E39EBBD04AFAEFC210ADC97 /* Pods-Shmile-DKChainableAnimationKit-dummy.m */; };
+		BBC5F17018BDFBC1525EF889 /* DKChainableAnimationKit+Effects.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40F16FEFDDFA36C5ADBE5DD /* DKChainableAnimationKit+Effects.swift */; };
+		BC54B6D2632E345EDF40136B /* DKChainableAnimationKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4512C2BA24DE42DAE9F25C8 /* DKChainableAnimationKit.swift */; };
+		C9703BE10392E62665D3C835 /* Pods-Shmile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83083E462839EE0BAAC58848 /* Pods-Shmile-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D04D7765AD27E700EAF880E1 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85572FFCC309DB1E75F2123 /* SocketLogger.swift */; };
+		D372CE8EADE15A1EE3CCF968 /* Pods-Shmile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CEF7DC16226FD5FA6F59ADC /* Pods-Shmile-dummy.m */; };
+		D7C6CA6D92BCB3EE298E530B /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B26FD8EDE2D387C7CBF1FC /* SocketEngine.swift */; };
+		D9B7DC7E1632F922B0406545 /* DKKeyframeAnimationFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE4D3EB1A102E62140A55F /* DKKeyframeAnimationFunction.swift */; };
+		DA25344B37E0A9C601B8935F /* UIView+AnimationKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36171A11C53DE0B6C4255B1B /* UIView+AnimationKit.swift */; };
+		E6A3A3C37A7CA76763FC6989 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3F2944EDCEA0A4BDD07A7A /* Foundation.framework */; };
+		E92FFE24C6DE38CF02558449 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C569783022D24C8B2370C0 /* SocketAnyEvent.swift */; };
+		FF4D571709253F5EC0815628 /* Pods-Shmile-Socket.IO-Client-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1824AA87FE374C080CC9493E /* Pods-Shmile-Socket.IO-Client-Swift-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		03018E02CFE78DDCB4819177 /* PBXContainerItemProxy */ = {
+		A3E393F69F35E81F28EAE2EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DCB944EAC80B3B6C9BA9AFE9 /* Project object */;
+			containerPortal = FB0543370882935E7F461372 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5D59E83BF5AFD8A167693856;
+			remoteGlobalIDString = 190176A1F477257E0828ABA7;
 			remoteInfo = "Pods-Shmile-Socket.IO-Client-Swift";
 		};
-		FD89F3D147BC5105FD568012 /* PBXContainerItemProxy */ = {
+		B8CF91BC386C1222FA2A4A38 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DCB944EAC80B3B6C9BA9AFE9 /* Project object */;
+			containerPortal = FB0543370882935E7F461372 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F1C6C2CD0372E27CE38D78AF;
+			remoteGlobalIDString = 3285124D207E69AF3820ABC1;
 			remoteInfo = "Pods-Shmile-DKChainableAnimationKit";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00BBE7A0B5724F659F043F20 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		09FD95D94F1F81409FEC2D15 /* Pods-Shmile-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Shmile-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0D75882B796B3A2D1C3FDFAC /* DKChainableAnimationKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKChainableAnimationKit.swift; path = DKChainableAnimationKit/Classes/DKChainableAnimationKit.swift; sourceTree = "<group>"; };
-		0DAE5BDDA89B8127E61F6218 /* Pods_Shmile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shmile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		106E0F257409A106411D7109 /* UIView+AnimationKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+AnimationKit.swift"; path = "DKChainableAnimationKit/Classes/UIView+AnimationKit.swift"; sourceTree = "<group>"; };
-		11BA4488C221C06B749F40F8 /* SocketEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngine.swift; path = SocketIOClientSwift/SocketEngine.swift; sourceTree = "<group>"; };
-		21B5E3850E2309FF61F45660 /* Pods-Shmile.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shmile.modulemap"; sourceTree = "<group>"; };
-		25A6965955F1D87B1F25E8C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2621D2672DD70B2D4A6CBC0F /* SocketAckManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAckManager.swift; path = SocketIOClientSwift/SocketAckManager.swift; sourceTree = "<group>"; };
-		272FECA3851E785FEF6B4880 /* DKChainableAnimationKit+Effects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DKChainableAnimationKit+Effects.swift"; path = "DKChainableAnimationKit/Classes/DKChainableAnimationKit+Effects.swift"; sourceTree = "<group>"; };
-		3168E9A152FA1126594A584F /* SocketPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketPacket.swift; path = SocketIOClientSwift/SocketPacket.swift; sourceTree = "<group>"; };
-		342CFC4D5B644713FFD5E4A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		37AE3DA1B8628B3CDD7337C4 /* DKChainableAnimationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKChainableAnimationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E291F59E4B8832446E64EDD /* Pods-Shmile-DKChainableAnimationKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-DKChainableAnimationKit-umbrella.h"; sourceTree = "<group>"; };
-		3FFCC4E30FEF4A7823C6E4D1 /* DKChainableAnimationKit+Frame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DKChainableAnimationKit+Frame.swift"; path = "DKChainableAnimationKit/Classes/DKChainableAnimationKit+Frame.swift"; sourceTree = "<group>"; };
-		489ADD5FF4E3E37B1B98890A /* SocketFixUTF8.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketFixUTF8.swift; path = SocketIOClientSwift/SocketFixUTF8.swift; sourceTree = "<group>"; };
-		5235F8AB47E4BAB44DC8E9EA /* Pods-Shmile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile.debug.xcconfig"; sourceTree = "<group>"; };
-		54E77879D804029B7414C6B9 /* Pods-Shmile-DKChainableAnimationKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile-DKChainableAnimationKit-Private.xcconfig"; sourceTree = "<group>"; };
-		5872F23844FB370120F224FF /* Pods-Shmile-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-environment.h"; sourceTree = "<group>"; };
-		5B71E1DC64346C746C179BBC /* Pods-Shmile-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shmile-frameworks.sh"; sourceTree = "<group>"; };
-		5D2860509F570737B1D103BC /* Pods-Shmile-Socket.IO-Client-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shmile-Socket.IO-Client-Swift-dummy.m"; sourceTree = "<group>"; };
-		5EF2C93C362F65A6902CD7A5 /* SocketParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketParser.swift; path = SocketIOClientSwift/SocketParser.swift; sourceTree = "<group>"; };
-		663590F784A777A55B788722 /* DKChainableAnimationKit+Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DKChainableAnimationKit+Anchor.swift"; path = "DKChainableAnimationKit/Classes/DKChainableAnimationKit+Anchor.swift"; sourceTree = "<group>"; };
-		67CD7E2E3FBE1AF9AFD0C4FD /* DKKeyFrameAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKKeyFrameAnimation.swift; path = DKChainableAnimationKit/Classes/DKKeyFrameAnimation.swift; sourceTree = "<group>"; };
-		6A56199817B3F1C5ED885671 /* SocketLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketLogger.swift; path = SocketIOClientSwift/SocketLogger.swift; sourceTree = "<group>"; };
-		6E5141EDBC002A6E46ACD837 /* Pods-Shmile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shmile-dummy.m"; sourceTree = "<group>"; };
-		714E1181EC8A02C70F7C6906 /* Pods-Shmile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile.release.xcconfig"; sourceTree = "<group>"; };
-		7349D77128CB91F0244EAB0C /* SocketIOClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClient.swift; path = SocketIOClientSwift/SocketIOClient.swift; sourceTree = "<group>"; };
-		73E655A7196CF5DEE6C9C2D9 /* Pods-Shmile-Socket.IO-Client-Swift-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile-Socket.IO-Client-Swift-Private.xcconfig"; sourceTree = "<group>"; };
-		76636AA1D9B4D5133C247320 /* SocketEventHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEventHandler.swift; path = SocketIOClientSwift/SocketEventHandler.swift; sourceTree = "<group>"; };
-		7945CE214E98342B56B4CDEA /* DKChainableAnimationKit+Transform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DKChainableAnimationKit+Transform.swift"; path = "DKChainableAnimationKit/Classes/DKChainableAnimationKit+Transform.swift"; sourceTree = "<group>"; };
-		7BE6970F2D328CEF28F0B766 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = SocketIOClientSwift/WebSocket.swift; sourceTree = "<group>"; };
-		7C4EE9D5046DBF7A9EDBA0FE /* Pods-Shmile-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Shmile-acknowledgements.plist"; sourceTree = "<group>"; };
-		7F7FB60FAD022A05983E2F9D /* Socket_IO_Client_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Socket_IO_Client_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		855ED3E337B15FA1EC25E988 /* DKChainableAnimationKit+Extra.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DKChainableAnimationKit+Extra.swift"; path = "DKChainableAnimationKit/Classes/DKChainableAnimationKit+Extra.swift"; sourceTree = "<group>"; };
-		8BEC650591A2933C4DAE0071 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F36994270B04B3ED90043D2 /* SwiftRegex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftRegex.swift; path = SocketIOClientSwift/SwiftRegex.swift; sourceTree = "<group>"; };
-		9B2475B9EC832DEFE36DE4FB /* Pods-Shmile-Socket.IO-Client-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile-Socket.IO-Client-Swift.xcconfig"; sourceTree = "<group>"; };
-		A8B1E0C7DA6FA4EDCC91AF57 /* SocketTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketTypes.swift; path = SocketIOClientSwift/SocketTypes.swift; sourceTree = "<group>"; };
-		AC7195BF2C6F24CF9223E4FC /* DKChainableAnimationKit+Bezier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DKChainableAnimationKit+Bezier.swift"; path = "DKChainableAnimationKit/Classes/DKChainableAnimationKit+Bezier.swift"; sourceTree = "<group>"; };
-		BCC0A94CFF5BC73681D6EF7F /* Pods-Shmile-DKChainableAnimationKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shmile-DKChainableAnimationKit.modulemap"; sourceTree = "<group>"; };
-		C4E254663B74635391F64BB3 /* Pods-Shmile-DKChainableAnimationKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile-DKChainableAnimationKit.xcconfig"; sourceTree = "<group>"; };
-		CFA1D9568F93E48CD76FC26D /* Pods-Shmile-Socket.IO-Client-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-Socket.IO-Client-Swift-umbrella.h"; sourceTree = "<group>"; };
-		D77E65F4FA03AB3735AE606F /* Pods-Shmile-DKChainableAnimationKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shmile-DKChainableAnimationKit-dummy.m"; sourceTree = "<group>"; };
-		D97B1AD44C10ED4A6A55BDB7 /* SocketEngineClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineClient.swift; path = SocketIOClientSwift/SocketEngineClient.swift; sourceTree = "<group>"; };
-		DD39A0B61CABB9013A26A089 /* DKKeyframeAnimationFunction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKKeyframeAnimationFunction.swift; path = DKChainableAnimationKit/Classes/DKKeyframeAnimationFunction.swift; sourceTree = "<group>"; };
-		DDA49F9A184448697863294E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E7D69CB139012285E753A3B7 /* Pods-Shmile-Socket.IO-Client-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-Socket.IO-Client-Swift-prefix.pch"; sourceTree = "<group>"; };
-		EC4CEBFCA708BCE1DA3ED789 /* Pods-Shmile-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-umbrella.h"; sourceTree = "<group>"; };
-		F325EC0ACB02E6CC61ECFF7D /* Pods-Shmile-DKChainableAnimationKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-DKChainableAnimationKit-prefix.pch"; sourceTree = "<group>"; };
-		FA159D58FBA6D80E4F891A7E /* SocketAnyEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAnyEvent.swift; path = SocketIOClientSwift/SocketAnyEvent.swift; sourceTree = "<group>"; };
-		FB3F3D55518295CC1EE5481F /* Pods-Shmile-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shmile-resources.sh"; sourceTree = "<group>"; };
-		FE8C3CF193266AA43A41D8EC /* Pods-Shmile-Socket.IO-Client-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shmile-Socket.IO-Client-Swift.modulemap"; sourceTree = "<group>"; };
+		011717BCEDB34C61F9688CC6 /* Pods-Shmile-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Shmile-acknowledgements.markdown"; sourceTree = "<group>"; };
+		05EB4B67BCF9C081D1E7DD5D /* SocketIOClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClient.swift; path = SocketIOClientSwift/SocketIOClient.swift; sourceTree = "<group>"; };
+		0CB545BF1A6C54EA12E0AF07 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = SocketIOClientSwift/WebSocket.swift; sourceTree = "<group>"; };
+		0D1D31DC453DD575D17716B8 /* Pods-Shmile.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shmile.modulemap"; sourceTree = "<group>"; };
+		1824AA87FE374C080CC9493E /* Pods-Shmile-Socket.IO-Client-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shmile-Socket.IO-Client-Swift-dummy.m"; sourceTree = "<group>"; };
+		1E39EBBD04AFAEFC210ADC97 /* Pods-Shmile-DKChainableAnimationKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shmile-DKChainableAnimationKit-dummy.m"; sourceTree = "<group>"; };
+		20872B3D632851DA2C51B4CF /* SocketParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketParser.swift; path = SocketIOClientSwift/SocketParser.swift; sourceTree = "<group>"; };
+		270A0BB0358046292C2E0A56 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CEF7DC16226FD5FA6F59ADC /* Pods-Shmile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shmile-dummy.m"; sourceTree = "<group>"; };
+		323E33A1D13DB769D6FBFEEC /* DKChainableAnimationKit+Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DKChainableAnimationKit+Anchor.swift"; path = "DKChainableAnimationKit/Classes/DKChainableAnimationKit+Anchor.swift"; sourceTree = "<group>"; };
+		36171A11C53DE0B6C4255B1B /* UIView+AnimationKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+AnimationKit.swift"; path = "DKChainableAnimationKit/Classes/UIView+AnimationKit.swift"; sourceTree = "<group>"; };
+		3C09A0B2D1FF78110819984D /* SocketPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketPacket.swift; path = SocketIOClientSwift/SocketPacket.swift; sourceTree = "<group>"; };
+		3D98AB2A22B61265CC619024 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3F2944EDCEA0A4BDD07A7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		443F47449841A623213CF412 /* Pods-Shmile-DKChainableAnimationKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-DKChainableAnimationKit-prefix.pch"; sourceTree = "<group>"; };
+		491143AA1A52767FF2A2F75B /* Pods-Shmile-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-environment.h"; sourceTree = "<group>"; };
+		4AD9FA5243D9BBA00BB1B1A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF6116C0F8A27E46356E15C /* DKChainableAnimationKit+Extra.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DKChainableAnimationKit+Extra.swift"; path = "DKChainableAnimationKit/Classes/DKChainableAnimationKit+Extra.swift"; sourceTree = "<group>"; };
+		543D82708CC348F0ABB9CD56 /* Pods-Shmile-Socket.IO-Client-Swift-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile-Socket.IO-Client-Swift-Private.xcconfig"; sourceTree = "<group>"; };
+		55DB32FBB5D3AF8612EFDA19 /* Pods-Shmile-Socket.IO-Client-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-Socket.IO-Client-Swift-umbrella.h"; sourceTree = "<group>"; };
+		68091CBF3205AD0EDCEB8108 /* SwiftRegex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftRegex.swift; path = SocketIOClientSwift/SwiftRegex.swift; sourceTree = "<group>"; };
+		6F769B21E6C42DA7F8ED6E18 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6FEFD60250CCDC3B871C5FFD /* Pods-Shmile-DKChainableAnimationKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile-DKChainableAnimationKit-Private.xcconfig"; sourceTree = "<group>"; };
+		7104485A07F4BECCC5BB45EF /* DKChainableAnimationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKChainableAnimationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		743CC200445AAEA1ACE4B7E7 /* SocketFixUTF8.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketFixUTF8.swift; path = SocketIOClientSwift/SocketFixUTF8.swift; sourceTree = "<group>"; };
+		83083E462839EE0BAAC58848 /* Pods-Shmile-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-umbrella.h"; sourceTree = "<group>"; };
+		85365EB403C02A6BAF2C49CE /* SocketEngineClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineClient.swift; path = SocketIOClientSwift/SocketEngineClient.swift; sourceTree = "<group>"; };
+		8B9B2F37AF9546FE4CD4A491 /* SocketAckManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAckManager.swift; path = SocketIOClientSwift/SocketAckManager.swift; sourceTree = "<group>"; };
+		93252A84FF8B9FBE64213AF4 /* Pods-Shmile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile.debug.xcconfig"; sourceTree = "<group>"; };
+		99C569783022D24C8B2370C0 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAnyEvent.swift; path = SocketIOClientSwift/SocketAnyEvent.swift; sourceTree = "<group>"; };
+		A078761675446CC55ABF3422 /* Pods-Shmile-DKChainableAnimationKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shmile-DKChainableAnimationKit.modulemap"; sourceTree = "<group>"; };
+		A083FF2D3E43AF9746658A57 /* Pods-Shmile-DKChainableAnimationKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile-DKChainableAnimationKit.xcconfig"; sourceTree = "<group>"; };
+		A0D16018012D2B00F32C66CC /* DKChainableAnimationKit+Frame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DKChainableAnimationKit+Frame.swift"; path = "DKChainableAnimationKit/Classes/DKChainableAnimationKit+Frame.swift"; sourceTree = "<group>"; };
+		AB20F702FFD138D978472D8E /* Pods-Shmile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile.release.xcconfig"; sourceTree = "<group>"; };
+		AD4F60EABB2DA2DC8229795C /* SocketEventHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEventHandler.swift; path = SocketIOClientSwift/SocketEventHandler.swift; sourceTree = "<group>"; };
+		B4B26FD8EDE2D387C7CBF1FC /* SocketEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngine.swift; path = SocketIOClientSwift/SocketEngine.swift; sourceTree = "<group>"; };
+		BB85E3AE0E3AE1D555E8760E /* DKChainableAnimationKit+Bezier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DKChainableAnimationKit+Bezier.swift"; path = "DKChainableAnimationKit/Classes/DKChainableAnimationKit+Bezier.swift"; sourceTree = "<group>"; };
+		BD6F87019C996C1087D4CEBB /* Pods-Shmile-Socket.IO-Client-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-Socket.IO-Client-Swift-prefix.pch"; sourceTree = "<group>"; };
+		BFF8D592B5AEC5B1D22A50D8 /* Socket_IO_Client_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Socket_IO_Client_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C168B1D1E7DD08E76A90DE78 /* Pods-Shmile-Socket.IO-Client-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shmile-Socket.IO-Client-Swift.modulemap"; sourceTree = "<group>"; };
+		C85572FFCC309DB1E75F2123 /* SocketLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketLogger.swift; path = SocketIOClientSwift/SocketLogger.swift; sourceTree = "<group>"; };
+		CCF327EEACCF4217B297E579 /* DKChainableAnimationKit+Transform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DKChainableAnimationKit+Transform.swift"; path = "DKChainableAnimationKit/Classes/DKChainableAnimationKit+Transform.swift"; sourceTree = "<group>"; };
+		D0B751A54CDF4CEDC0BD3FFA /* SocketTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketTypes.swift; path = SocketIOClientSwift/SocketTypes.swift; sourceTree = "<group>"; };
+		D4C6B30CA0A011A4E11E7E8F /* Pods-Shmile-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shmile-frameworks.sh"; sourceTree = "<group>"; };
+		D5B3BE67414CB061D89117A0 /* Pods-Shmile-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shmile-resources.sh"; sourceTree = "<group>"; };
+		E4512C2BA24DE42DAE9F25C8 /* DKChainableAnimationKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKChainableAnimationKit.swift; path = DKChainableAnimationKit/Classes/DKChainableAnimationKit.swift; sourceTree = "<group>"; };
+		EAE6F85B4EB91EF84C6BBCB6 /* DKKeyFrameAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKKeyFrameAnimation.swift; path = DKChainableAnimationKit/Classes/DKKeyFrameAnimation.swift; sourceTree = "<group>"; };
+		ED91E48FCA491D1B6A509F39 /* Pods_Shmile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shmile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40F16FEFDDFA36C5ADBE5DD /* DKChainableAnimationKit+Effects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DKChainableAnimationKit+Effects.swift"; path = "DKChainableAnimationKit/Classes/DKChainableAnimationKit+Effects.swift"; sourceTree = "<group>"; };
+		FB38C741238B4E8C579DE160 /* Pods-Shmile-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Shmile-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC83D3C64594C6FC739CCD0D /* Pods-Shmile-Socket.IO-Client-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile-Socket.IO-Client-Swift.xcconfig"; sourceTree = "<group>"; };
+		FD145048D0C0208F3B4EE135 /* Pods-Shmile-DKChainableAnimationKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-DKChainableAnimationKit-umbrella.h"; sourceTree = "<group>"; };
+		FEAE4D3EB1A102E62140A55F /* DKKeyframeAnimationFunction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKKeyframeAnimationFunction.swift; path = DKChainableAnimationKit/Classes/DKKeyframeAnimationFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1964907B9A3ED72EAAA438F6 /* Frameworks */ = {
+		3947F25161586586982DD4B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AAA705B3A9129897FF65671 /* Foundation.framework in Frameworks */,
+				40A98B160E93562DD3A7D8C4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61BBE32764CB43C70D201FAD /* Frameworks */ = {
+		3F7C7570409528286E03045D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0C0F81C6FCF82D36D8032A9 /* Foundation.framework in Frameworks */,
+				925F20EBB705C5CB919C9AF9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C0A597838F36B81EBD2435A /* Frameworks */ = {
+		DA33F2E052760051699DACEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B143C0B81B0FADE50C7108F /* Foundation.framework in Frameworks */,
+				E6A3A3C37A7CA76763FC6989 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		37415A42073AD073739DAF3E /* Pods-Shmile */ = {
+		1119383A669CC5AE41C3E401 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DDA49F9A184448697863294E /* Info.plist */,
-				21B5E3850E2309FF61F45660 /* Pods-Shmile.modulemap */,
-				09FD95D94F1F81409FEC2D15 /* Pods-Shmile-acknowledgements.markdown */,
-				7C4EE9D5046DBF7A9EDBA0FE /* Pods-Shmile-acknowledgements.plist */,
-				6E5141EDBC002A6E46ACD837 /* Pods-Shmile-dummy.m */,
-				5872F23844FB370120F224FF /* Pods-Shmile-environment.h */,
-				5B71E1DC64346C746C179BBC /* Pods-Shmile-frameworks.sh */,
-				FB3F3D55518295CC1EE5481F /* Pods-Shmile-resources.sh */,
-				EC4CEBFCA708BCE1DA3ED789 /* Pods-Shmile-umbrella.h */,
-				5235F8AB47E4BAB44DC8E9EA /* Pods-Shmile.debug.xcconfig */,
-				714E1181EC8A02C70F7C6906 /* Pods-Shmile.release.xcconfig */,
-			);
-			name = "Pods-Shmile";
-			path = "Target Support Files/Pods-Shmile";
-			sourceTree = "<group>";
-		};
-		46A9B4E50CE796111E1296A6 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				342CFC4D5B644713FFD5E4A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		5ED09A8CAF8858908B1F2D22 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				46A9B4E50CE796111E1296A6 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6631949E55D5149E8E879CFF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				37AE3DA1B8628B3CDD7337C4 /* DKChainableAnimationKit.framework */,
-				0DAE5BDDA89B8127E61F6218 /* Pods_Shmile.framework */,
-				7F7FB60FAD022A05983E2F9D /* Socket_IO_Client_Swift.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		707A864D249528CFF77A5B96 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8BEC650591A2933C4DAE0071 /* Info.plist */,
-				FE8C3CF193266AA43A41D8EC /* Pods-Shmile-Socket.IO-Client-Swift.modulemap */,
-				9B2475B9EC832DEFE36DE4FB /* Pods-Shmile-Socket.IO-Client-Swift.xcconfig */,
-				73E655A7196CF5DEE6C9C2D9 /* Pods-Shmile-Socket.IO-Client-Swift-Private.xcconfig */,
-				5D2860509F570737B1D103BC /* Pods-Shmile-Socket.IO-Client-Swift-dummy.m */,
-				E7D69CB139012285E753A3B7 /* Pods-Shmile-Socket.IO-Client-Swift-prefix.pch */,
-				CFA1D9568F93E48CD76FC26D /* Pods-Shmile-Socket.IO-Client-Swift-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-Shmile-Socket.IO-Client-Swift";
-			sourceTree = "<group>";
-		};
-		92D8D12678ADF1EF24BDB7C5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				25A6965955F1D87B1F25E8C5 /* Info.plist */,
-				BCC0A94CFF5BC73681D6EF7F /* Pods-Shmile-DKChainableAnimationKit.modulemap */,
-				C4E254663B74635391F64BB3 /* Pods-Shmile-DKChainableAnimationKit.xcconfig */,
-				54E77879D804029B7414C6B9 /* Pods-Shmile-DKChainableAnimationKit-Private.xcconfig */,
-				D77E65F4FA03AB3735AE606F /* Pods-Shmile-DKChainableAnimationKit-dummy.m */,
-				F325EC0ACB02E6CC61ECFF7D /* Pods-Shmile-DKChainableAnimationKit-prefix.pch */,
-				3E291F59E4B8832446E64EDD /* Pods-Shmile-DKChainableAnimationKit-umbrella.h */,
+				4AD9FA5243D9BBA00BB1B1A3 /* Info.plist */,
+				A078761675446CC55ABF3422 /* Pods-Shmile-DKChainableAnimationKit.modulemap */,
+				A083FF2D3E43AF9746658A57 /* Pods-Shmile-DKChainableAnimationKit.xcconfig */,
+				6FEFD60250CCDC3B871C5FFD /* Pods-Shmile-DKChainableAnimationKit-Private.xcconfig */,
+				1E39EBBD04AFAEFC210ADC97 /* Pods-Shmile-DKChainableAnimationKit-dummy.m */,
+				443F47449841A623213CF412 /* Pods-Shmile-DKChainableAnimationKit-prefix.pch */,
+				FD145048D0C0208F3B4EE135 /* Pods-Shmile-DKChainableAnimationKit-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-Shmile-DKChainableAnimationKit";
 			sourceTree = "<group>";
 		};
-		9D57EC046DD7BEACB6D3D75F /* Pods */ = {
+		17579722CC6C0ACCF59978B0 = {
 			isa = PBXGroup;
 			children = (
-				C2FA4D2FBC5348A9B2753579 /* DKChainableAnimationKit */,
-				9E79DC2CDC18EC0DB5A2656D /* Socket.IO-Client-Swift */,
+				6F769B21E6C42DA7F8ED6E18 /* Podfile */,
+				8C3ECE070DCBE89A584DB12D /* Frameworks */,
+				D85819C5193DC6B5E7235AEB /* Pods */,
+				7116ECB8BDD3052DB0D724D3 /* Products */,
+				E22F02C245304152EF821AF6 /* Targets Support Files */,
 			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
-		9E79DC2CDC18EC0DB5A2656D /* Socket.IO-Client-Swift */ = {
+		27E0191BC587FAEC71EEFA07 /* Socket.IO-Client-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				2621D2672DD70B2D4A6CBC0F /* SocketAckManager.swift */,
-				FA159D58FBA6D80E4F891A7E /* SocketAnyEvent.swift */,
-				11BA4488C221C06B749F40F8 /* SocketEngine.swift */,
-				D97B1AD44C10ED4A6A55BDB7 /* SocketEngineClient.swift */,
-				76636AA1D9B4D5133C247320 /* SocketEventHandler.swift */,
-				489ADD5FF4E3E37B1B98890A /* SocketFixUTF8.swift */,
-				7349D77128CB91F0244EAB0C /* SocketIOClient.swift */,
-				6A56199817B3F1C5ED885671 /* SocketLogger.swift */,
-				3168E9A152FA1126594A584F /* SocketPacket.swift */,
-				5EF2C93C362F65A6902CD7A5 /* SocketParser.swift */,
-				A8B1E0C7DA6FA4EDCC91AF57 /* SocketTypes.swift */,
-				8F36994270B04B3ED90043D2 /* SwiftRegex.swift */,
-				7BE6970F2D328CEF28F0B766 /* WebSocket.swift */,
-				707A864D249528CFF77A5B96 /* Support Files */,
+				8B9B2F37AF9546FE4CD4A491 /* SocketAckManager.swift */,
+				99C569783022D24C8B2370C0 /* SocketAnyEvent.swift */,
+				B4B26FD8EDE2D387C7CBF1FC /* SocketEngine.swift */,
+				85365EB403C02A6BAF2C49CE /* SocketEngineClient.swift */,
+				AD4F60EABB2DA2DC8229795C /* SocketEventHandler.swift */,
+				743CC200445AAEA1ACE4B7E7 /* SocketFixUTF8.swift */,
+				05EB4B67BCF9C081D1E7DD5D /* SocketIOClient.swift */,
+				C85572FFCC309DB1E75F2123 /* SocketLogger.swift */,
+				3C09A0B2D1FF78110819984D /* SocketPacket.swift */,
+				20872B3D632851DA2C51B4CF /* SocketParser.swift */,
+				D0B751A54CDF4CEDC0BD3FFA /* SocketTypes.swift */,
+				68091CBF3205AD0EDCEB8108 /* SwiftRegex.swift */,
+				0CB545BF1A6C54EA12E0AF07 /* WebSocket.swift */,
+				BF624559DEA48A26392944A8 /* Support Files */,
 			);
 			path = "Socket.IO-Client-Swift";
 			sourceTree = "<group>";
 		};
-		BAD96A16D6BD05D9EE3DFE35 = {
+		3EF02F0369F1894121249DE7 /* Pods-Shmile */ = {
 			isa = PBXGroup;
 			children = (
-				00BBE7A0B5724F659F043F20 /* Podfile */,
-				5ED09A8CAF8858908B1F2D22 /* Frameworks */,
-				9D57EC046DD7BEACB6D3D75F /* Pods */,
-				6631949E55D5149E8E879CFF /* Products */,
-				DDD63DE00C8CBC294A928E46 /* Targets Support Files */,
+				270A0BB0358046292C2E0A56 /* Info.plist */,
+				0D1D31DC453DD575D17716B8 /* Pods-Shmile.modulemap */,
+				011717BCEDB34C61F9688CC6 /* Pods-Shmile-acknowledgements.markdown */,
+				FB38C741238B4E8C579DE160 /* Pods-Shmile-acknowledgements.plist */,
+				2CEF7DC16226FD5FA6F59ADC /* Pods-Shmile-dummy.m */,
+				491143AA1A52767FF2A2F75B /* Pods-Shmile-environment.h */,
+				D4C6B30CA0A011A4E11E7E8F /* Pods-Shmile-frameworks.sh */,
+				D5B3BE67414CB061D89117A0 /* Pods-Shmile-resources.sh */,
+				83083E462839EE0BAAC58848 /* Pods-Shmile-umbrella.h */,
+				93252A84FF8B9FBE64213AF4 /* Pods-Shmile.debug.xcconfig */,
+				AB20F702FFD138D978472D8E /* Pods-Shmile.release.xcconfig */,
 			);
+			name = "Pods-Shmile";
+			path = "Target Support Files/Pods-Shmile";
 			sourceTree = "<group>";
 		};
-		C2FA4D2FBC5348A9B2753579 /* DKChainableAnimationKit */ = {
+		41BC067DB7B4B20FFFD3470A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				0D75882B796B3A2D1C3FDFAC /* DKChainableAnimationKit.swift */,
-				663590F784A777A55B788722 /* DKChainableAnimationKit+Anchor.swift */,
-				AC7195BF2C6F24CF9223E4FC /* DKChainableAnimationKit+Bezier.swift */,
-				272FECA3851E785FEF6B4880 /* DKChainableAnimationKit+Effects.swift */,
-				855ED3E337B15FA1EC25E988 /* DKChainableAnimationKit+Extra.swift */,
-				3FFCC4E30FEF4A7823C6E4D1 /* DKChainableAnimationKit+Frame.swift */,
-				7945CE214E98342B56B4CDEA /* DKChainableAnimationKit+Transform.swift */,
-				67CD7E2E3FBE1AF9AFD0C4FD /* DKKeyFrameAnimation.swift */,
-				DD39A0B61CABB9013A26A089 /* DKKeyframeAnimationFunction.swift */,
-				106E0F257409A106411D7109 /* UIView+AnimationKit.swift */,
-				92D8D12678ADF1EF24BDB7C5 /* Support Files */,
+				3F3F2944EDCEA0A4BDD07A7A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7116ECB8BDD3052DB0D724D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7104485A07F4BECCC5BB45EF /* DKChainableAnimationKit.framework */,
+				ED91E48FCA491D1B6A509F39 /* Pods_Shmile.framework */,
+				BFF8D592B5AEC5B1D22A50D8 /* Socket_IO_Client_Swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C3ECE070DCBE89A584DB12D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41BC067DB7B4B20FFFD3470A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9B296F5E3D5C6DFEA6D478F /* DKChainableAnimationKit */ = {
+			isa = PBXGroup;
+			children = (
+				E4512C2BA24DE42DAE9F25C8 /* DKChainableAnimationKit.swift */,
+				323E33A1D13DB769D6FBFEEC /* DKChainableAnimationKit+Anchor.swift */,
+				BB85E3AE0E3AE1D555E8760E /* DKChainableAnimationKit+Bezier.swift */,
+				F40F16FEFDDFA36C5ADBE5DD /* DKChainableAnimationKit+Effects.swift */,
+				4DF6116C0F8A27E46356E15C /* DKChainableAnimationKit+Extra.swift */,
+				A0D16018012D2B00F32C66CC /* DKChainableAnimationKit+Frame.swift */,
+				CCF327EEACCF4217B297E579 /* DKChainableAnimationKit+Transform.swift */,
+				EAE6F85B4EB91EF84C6BBCB6 /* DKKeyFrameAnimation.swift */,
+				FEAE4D3EB1A102E62140A55F /* DKKeyframeAnimationFunction.swift */,
+				36171A11C53DE0B6C4255B1B /* UIView+AnimationKit.swift */,
+				1119383A669CC5AE41C3E401 /* Support Files */,
 			);
 			path = DKChainableAnimationKit;
 			sourceTree = "<group>";
 		};
-		DDD63DE00C8CBC294A928E46 /* Targets Support Files */ = {
+		BF624559DEA48A26392944A8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				37415A42073AD073739DAF3E /* Pods-Shmile */,
+				3D98AB2A22B61265CC619024 /* Info.plist */,
+				C168B1D1E7DD08E76A90DE78 /* Pods-Shmile-Socket.IO-Client-Swift.modulemap */,
+				FC83D3C64594C6FC739CCD0D /* Pods-Shmile-Socket.IO-Client-Swift.xcconfig */,
+				543D82708CC348F0ABB9CD56 /* Pods-Shmile-Socket.IO-Client-Swift-Private.xcconfig */,
+				1824AA87FE374C080CC9493E /* Pods-Shmile-Socket.IO-Client-Swift-dummy.m */,
+				BD6F87019C996C1087D4CEBB /* Pods-Shmile-Socket.IO-Client-Swift-prefix.pch */,
+				55DB32FBB5D3AF8612EFDA19 /* Pods-Shmile-Socket.IO-Client-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Shmile-Socket.IO-Client-Swift";
+			sourceTree = "<group>";
+		};
+		D85819C5193DC6B5E7235AEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9B296F5E3D5C6DFEA6D478F /* DKChainableAnimationKit */,
+				27E0191BC587FAEC71EEFA07 /* Socket.IO-Client-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E22F02C245304152EF821AF6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EF02F0369F1894121249DE7 /* Pods-Shmile */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -287,40 +287,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		48488ABDF776009AB55A5995 /* Headers */ = {
+		839DBC2D4777405E06ABC9C9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29D4D631B636D7A42AA2BEF5 /* Pods-Shmile-DKChainableAnimationKit-umbrella.h in Headers */,
+				C9703BE10392E62665D3C835 /* Pods-Shmile-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72BDA10203B04197514FC6B7 /* Headers */ = {
+		AEB83CC79D0E800EFEA8E95F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22D2A7B5C83EB770958F3A60 /* Pods-Shmile-Socket.IO-Client-Swift-umbrella.h in Headers */,
+				2374CF82F246443C5F65B639 /* Pods-Shmile-Socket.IO-Client-Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6EAA023276EAE57201B1CF2 /* Headers */ = {
+		C8700006EDAF6CDA5EB86811 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4CAA39FE358A7536E251C0D /* Pods-Shmile-umbrella.h in Headers */,
+				2A7E797FACDBDD02DC5AF2E1 /* Pods-Shmile-DKChainableAnimationKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5D59E83BF5AFD8A167693856 /* Pods-Shmile-Socket.IO-Client-Swift */ = {
+		190176A1F477257E0828ABA7 /* Pods-Shmile-Socket.IO-Client-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA87BD7C45F393B2375BA1E3 /* Build configuration list for PBXNativeTarget "Pods-Shmile-Socket.IO-Client-Swift" */;
+			buildConfigurationList = 2D96FE49DC01FE1CCD5708A2 /* Build configuration list for PBXNativeTarget "Pods-Shmile-Socket.IO-Client-Swift" */;
 			buildPhases = (
-				A96B255F16D159D19BC552CD /* Sources */,
-				1964907B9A3ED72EAAA438F6 /* Frameworks */,
-				72BDA10203B04197514FC6B7 /* Headers */,
+				3F78454D174A7D7B2910E602 /* Sources */,
+				DA33F2E052760051699DACEE /* Frameworks */,
+				AEB83CC79D0E800EFEA8E95F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -328,35 +328,16 @@
 			);
 			name = "Pods-Shmile-Socket.IO-Client-Swift";
 			productName = "Pods-Shmile-Socket.IO-Client-Swift";
-			productReference = 7F7FB60FAD022A05983E2F9D /* Socket_IO_Client_Swift.framework */;
+			productReference = BFF8D592B5AEC5B1D22A50D8 /* Socket_IO_Client_Swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9BA72B7300154676290F13EC /* Pods-Shmile */ = {
+		3285124D207E69AF3820ABC1 /* Pods-Shmile-DKChainableAnimationKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC2A101E7AA9D33DF2DF5C2A /* Build configuration list for PBXNativeTarget "Pods-Shmile" */;
+			buildConfigurationList = C672BEDA030CC0DC0B7D57FB /* Build configuration list for PBXNativeTarget "Pods-Shmile-DKChainableAnimationKit" */;
 			buildPhases = (
-				F9760B26DDF56FA358BEBF84 /* Sources */,
-				61BBE32764CB43C70D201FAD /* Frameworks */,
-				A6EAA023276EAE57201B1CF2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				96D9178E97C3ED7C84E60B5A /* PBXTargetDependency */,
-				39A8597FD2CBBB4D5E5A8115 /* PBXTargetDependency */,
-			);
-			name = "Pods-Shmile";
-			productName = "Pods-Shmile";
-			productReference = 0DAE5BDDA89B8127E61F6218 /* Pods_Shmile.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F1C6C2CD0372E27CE38D78AF /* Pods-Shmile-DKChainableAnimationKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6B01D0ED006C97B95F0FDE79 /* Build configuration list for PBXNativeTarget "Pods-Shmile-DKChainableAnimationKit" */;
-			buildPhases = (
-				01FF05525199E14977A018E5 /* Sources */,
-				9C0A597838F36B81EBD2435A /* Frameworks */,
-				48488ABDF776009AB55A5995 /* Headers */,
+				987C6DD8964106D2444D4553 /* Sources */,
+				3F7C7570409528286E03045D /* Frameworks */,
+				C8700006EDAF6CDA5EB86811 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -364,133 +345,124 @@
 			);
 			name = "Pods-Shmile-DKChainableAnimationKit";
 			productName = "Pods-Shmile-DKChainableAnimationKit";
-			productReference = 37AE3DA1B8628B3CDD7337C4 /* DKChainableAnimationKit.framework */;
+			productReference = 7104485A07F4BECCC5BB45EF /* DKChainableAnimationKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76E259EC8023F7AFF5428B6C /* Pods-Shmile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF222B3790B1E2A3A296BB46 /* Build configuration list for PBXNativeTarget "Pods-Shmile" */;
+			buildPhases = (
+				20F65908775979DF33A3C7F4 /* Sources */,
+				3947F25161586586982DD4B1 /* Frameworks */,
+				839DBC2D4777405E06ABC9C9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95167FD6940B8E90E8DB9F06 /* PBXTargetDependency */,
+				7446D9C71341E6667D2F95A5 /* PBXTargetDependency */,
+			);
+			name = "Pods-Shmile";
+			productName = "Pods-Shmile";
+			productReference = ED91E48FCA491D1B6A509F39 /* Pods_Shmile.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DCB944EAC80B3B6C9BA9AFE9 /* Project object */ = {
+		FB0543370882935E7F461372 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 8CBA7C0BEBC2ECAABC9C910F /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 0BEE6F8BA01BFE189BAA78FA /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = BAD96A16D6BD05D9EE3DFE35;
-			productRefGroup = 6631949E55D5149E8E879CFF /* Products */;
+			mainGroup = 17579722CC6C0ACCF59978B0;
+			productRefGroup = 7116ECB8BDD3052DB0D724D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9BA72B7300154676290F13EC /* Pods-Shmile */,
-				F1C6C2CD0372E27CE38D78AF /* Pods-Shmile-DKChainableAnimationKit */,
-				5D59E83BF5AFD8A167693856 /* Pods-Shmile-Socket.IO-Client-Swift */,
+				76E259EC8023F7AFF5428B6C /* Pods-Shmile */,
+				3285124D207E69AF3820ABC1 /* Pods-Shmile-DKChainableAnimationKit */,
+				190176A1F477257E0828ABA7 /* Pods-Shmile-Socket.IO-Client-Swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		01FF05525199E14977A018E5 /* Sources */ = {
+		20F65908775979DF33A3C7F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D981EA74A844D067AB3EED8 /* DKChainableAnimationKit+Anchor.swift in Sources */,
-				0FCB1A0BAAF7DEE37157E9D5 /* DKChainableAnimationKit+Bezier.swift in Sources */,
-				EE4DB569C04FA6E03F12BFFF /* DKChainableAnimationKit+Effects.swift in Sources */,
-				351CB3447110EF3B03450163 /* DKChainableAnimationKit+Extra.swift in Sources */,
-				EC04DA662E902520F3AD2175 /* DKChainableAnimationKit+Frame.swift in Sources */,
-				DEA1B77B9115E8EE5D6FBAAA /* DKChainableAnimationKit+Transform.swift in Sources */,
-				F46C1A9C09C77A7383A820B3 /* DKChainableAnimationKit.swift in Sources */,
-				E2F69C7F08AF9EEA12B6ED6C /* DKKeyFrameAnimation.swift in Sources */,
-				A9E1C281481DECCD6C101670 /* DKKeyframeAnimationFunction.swift in Sources */,
-				7DCB3F263127E820A6813B27 /* Pods-Shmile-DKChainableAnimationKit-dummy.m in Sources */,
-				94A99B23B2CBBA46FC6BF529 /* UIView+AnimationKit.swift in Sources */,
+				D372CE8EADE15A1EE3CCF968 /* Pods-Shmile-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A96B255F16D159D19BC552CD /* Sources */ = {
+		3F78454D174A7D7B2910E602 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7F9765F8EDEEC1510BA547F /* Pods-Shmile-Socket.IO-Client-Swift-dummy.m in Sources */,
-				FDF327BFFC04DEC2B8656B63 /* SocketAckManager.swift in Sources */,
-				C19CA95A272300B4C726B4A1 /* SocketAnyEvent.swift in Sources */,
-				08A1DF09DC069D4C6DEDB3A8 /* SocketEngine.swift in Sources */,
-				9447D272241A328861E6171A /* SocketEngineClient.swift in Sources */,
-				DD6F02D67566A1C53ACD73C5 /* SocketEventHandler.swift in Sources */,
-				4AC5CCDBAFD2774AE0B90550 /* SocketFixUTF8.swift in Sources */,
-				6816255B3FD40858F4E80252 /* SocketIOClient.swift in Sources */,
-				5E849759444650B611EE6D00 /* SocketLogger.swift in Sources */,
-				B200A7A24CA2FD9949FEA7F8 /* SocketPacket.swift in Sources */,
-				64AC038DF7917EB777401CCA /* SocketParser.swift in Sources */,
-				28CC4B388FB57A807ACB36B2 /* SocketTypes.swift in Sources */,
-				E07F97630DF7BBA2D488C815 /* SwiftRegex.swift in Sources */,
-				40AF0B86A263AD2AA481D27E /* WebSocket.swift in Sources */,
+				FF4D571709253F5EC0815628 /* Pods-Shmile-Socket.IO-Client-Swift-dummy.m in Sources */,
+				A1AE892CCC75889321F34591 /* SocketAckManager.swift in Sources */,
+				E92FFE24C6DE38CF02558449 /* SocketAnyEvent.swift in Sources */,
+				D7C6CA6D92BCB3EE298E530B /* SocketEngine.swift in Sources */,
+				9D60288BA60F14839CDA8D40 /* SocketEngineClient.swift in Sources */,
+				B141111CFF95669389D9DB81 /* SocketEventHandler.swift in Sources */,
+				8F9C8ADFB77299465E8C1B41 /* SocketFixUTF8.swift in Sources */,
+				4A723265617C2B36490C78C9 /* SocketIOClient.swift in Sources */,
+				D04D7765AD27E700EAF880E1 /* SocketLogger.swift in Sources */,
+				8A5B61707E32A6C72CE2B74C /* SocketPacket.swift in Sources */,
+				0B9C75CFB70CB222A1054BD1 /* SocketParser.swift in Sources */,
+				69D81A609E6C02E851D3CAF3 /* SocketTypes.swift in Sources */,
+				9213F9A32CB95997FD80B3BC /* SwiftRegex.swift in Sources */,
+				58CB429A41A8C076A14EE3B9 /* WebSocket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9760B26DDF56FA358BEBF84 /* Sources */ = {
+		987C6DD8964106D2444D4553 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6919812022FAD9CBAE33F607 /* Pods-Shmile-dummy.m in Sources */,
+				394D2EC93A18172570278656 /* DKChainableAnimationKit+Anchor.swift in Sources */,
+				5978A8933C7538FBD1CF0741 /* DKChainableAnimationKit+Bezier.swift in Sources */,
+				BBC5F17018BDFBC1525EF889 /* DKChainableAnimationKit+Effects.swift in Sources */,
+				AC10FB8698FCEA4E6597E759 /* DKChainableAnimationKit+Extra.swift in Sources */,
+				87CBDBD143B90F7CACBC5660 /* DKChainableAnimationKit+Frame.swift in Sources */,
+				1CED18AF2423F1EE0FDB810D /* DKChainableAnimationKit+Transform.swift in Sources */,
+				BC54B6D2632E345EDF40136B /* DKChainableAnimationKit.swift in Sources */,
+				7C58CBCC61F17ADF16744F23 /* DKKeyFrameAnimation.swift in Sources */,
+				D9B7DC7E1632F922B0406545 /* DKKeyframeAnimationFunction.swift in Sources */,
+				B87177225FB97714D172B96D /* Pods-Shmile-DKChainableAnimationKit-dummy.m in Sources */,
+				DA25344B37E0A9C601B8935F /* UIView+AnimationKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		39A8597FD2CBBB4D5E5A8115 /* PBXTargetDependency */ = {
+		7446D9C71341E6667D2F95A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Shmile-Socket.IO-Client-Swift";
-			target = 5D59E83BF5AFD8A167693856 /* Pods-Shmile-Socket.IO-Client-Swift */;
-			targetProxy = 03018E02CFE78DDCB4819177 /* PBXContainerItemProxy */;
+			target = 190176A1F477257E0828ABA7 /* Pods-Shmile-Socket.IO-Client-Swift */;
+			targetProxy = A3E393F69F35E81F28EAE2EA /* PBXContainerItemProxy */;
 		};
-		96D9178E97C3ED7C84E60B5A /* PBXTargetDependency */ = {
+		95167FD6940B8E90E8DB9F06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Shmile-DKChainableAnimationKit";
-			target = F1C6C2CD0372E27CE38D78AF /* Pods-Shmile-DKChainableAnimationKit */;
-			targetProxy = FD89F3D147BC5105FD568012 /* PBXContainerItemProxy */;
+			target = 3285124D207E69AF3820ABC1 /* Pods-Shmile-DKChainableAnimationKit */;
+			targetProxy = B8CF91BC386C1222FA2A4A38 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1356A221F12678FD34B678B9 /* Debug */ = {
+		2462AFF39E1C54E92E3132A9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73E655A7196CF5DEE6C9C2D9 /* Pods-Shmile-Socket.IO-Client-Swift-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Pods-Shmile-Socket.IO-Client-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Pods-Shmile-Socket.IO-Client-Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Socket_IO_Client_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		21F8BE7C33C3736C033977F1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 714E1181EC8A02C70F7C6906 /* Pods-Shmile.release.xcconfig */;
+			baseConfigurationReference = AB20F702FFD138D978472D8E /* Pods-Shmile.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -517,36 +489,43 @@
 			};
 			name = Release;
 		};
-		2F3D1D2C5DDD59E19C502EB0 /* Release */ = {
+		48120162EF0EA75E96D2008C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73E655A7196CF5DEE6C9C2D9 /* Pods-Shmile-Socket.IO-Client-Swift-Private.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Pods-Shmile-Socket.IO-Client-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Pods-Shmile-Socket.IO-Client-Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Socket_IO_Client_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		7DEE4DC7886003A6FC5348A1 /* Debug */ = {
+		75895FFF7B4D6A1C4D72E365 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54E77879D804029B7414C6B9 /* Pods-Shmile-DKChainableAnimationKit-Private.xcconfig */;
+			baseConfigurationReference = 6FEFD60250CCDC3B871C5FFD /* Pods-Shmile-DKChainableAnimationKit-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -572,7 +551,7 @@
 			};
 			name = Debug;
 		};
-		B260CF383364BF06F25598FC /* Debug */ = {
+		7AB09936570DD3CF00AFA2DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -611,70 +590,9 @@
 			};
 			name = Debug;
 		};
-		CD0C8A785A9C5F661451AADA /* Release */ = {
+		7F8F0EAC58B3E437FC22A98C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54E77879D804029B7414C6B9 /* Pods-Shmile-DKChainableAnimationKit-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shmile-DKChainableAnimationKit/Pods-Shmile-DKChainableAnimationKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Shmile-DKChainableAnimationKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Shmile-DKChainableAnimationKit/Pods-Shmile-DKChainableAnimationKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = DKChainableAnimationKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D7F43C7960604C38B2F5154A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		E8E6E720BE3930327B3A288B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5235F8AB47E4BAB44DC8E9EA /* Pods-Shmile.debug.xcconfig */;
+			baseConfigurationReference = 93252A84FF8B9FBE64213AF4 /* Pods-Shmile.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -702,46 +620,128 @@
 			};
 			name = Debug;
 		};
+		9E4C7B09EA9F4ACD704A969A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FEFD60250CCDC3B871C5FFD /* Pods-Shmile-DKChainableAnimationKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shmile-DKChainableAnimationKit/Pods-Shmile-DKChainableAnimationKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Shmile-DKChainableAnimationKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Shmile-DKChainableAnimationKit/Pods-Shmile-DKChainableAnimationKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DKChainableAnimationKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C75101AEBB005A8ED88A74D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 543D82708CC348F0ABB9CD56 /* Pods-Shmile-Socket.IO-Client-Swift-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Pods-Shmile-Socket.IO-Client-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Pods-Shmile-Socket.IO-Client-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Socket_IO_Client_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F51B9FBC260C546772F7D445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 543D82708CC348F0ABB9CD56 /* Pods-Shmile-Socket.IO-Client-Swift-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Pods-Shmile-Socket.IO-Client-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Pods-Shmile-Socket.IO-Client-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Socket_IO_Client_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6B01D0ED006C97B95F0FDE79 /* Build configuration list for PBXNativeTarget "Pods-Shmile-DKChainableAnimationKit" */ = {
+		0BEE6F8BA01BFE189BAA78FA /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7DEE4DC7886003A6FC5348A1 /* Debug */,
-				CD0C8A785A9C5F661451AADA /* Release */,
+				7AB09936570DD3CF00AFA2DC /* Debug */,
+				48120162EF0EA75E96D2008C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8CBA7C0BEBC2ECAABC9C910F /* Build configuration list for PBXProject "Pods" */ = {
+		2D96FE49DC01FE1CCD5708A2 /* Build configuration list for PBXNativeTarget "Pods-Shmile-Socket.IO-Client-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B260CF383364BF06F25598FC /* Debug */,
-				D7F43C7960604C38B2F5154A /* Release */,
+				F51B9FBC260C546772F7D445 /* Debug */,
+				C75101AEBB005A8ED88A74D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA87BD7C45F393B2375BA1E3 /* Build configuration list for PBXNativeTarget "Pods-Shmile-Socket.IO-Client-Swift" */ = {
+		C672BEDA030CC0DC0B7D57FB /* Build configuration list for PBXNativeTarget "Pods-Shmile-DKChainableAnimationKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1356A221F12678FD34B678B9 /* Debug */,
-				2F3D1D2C5DDD59E19C502EB0 /* Release */,
+				75895FFF7B4D6A1C4D72E365 /* Debug */,
+				9E4C7B09EA9F4ACD704A969A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC2A101E7AA9D33DF2DF5C2A /* Build configuration list for PBXNativeTarget "Pods-Shmile" */ = {
+		FF222B3790B1E2A3A296BB46 /* Build configuration list for PBXNativeTarget "Pods-Shmile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8E6E720BE3930327B3A288B /* Debug */,
-				21F8BE7C33C3736C033977F1 /* Release */,
+				7F8F0EAC58B3E437FC22A98C /* Debug */,
+				2462AFF39E1C54E92E3132A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DCB944EAC80B3B6C9BA9AFE9 /* Project object */;
+	rootObject = FB0543370882935E7F461372 /* Project object */;
 }
