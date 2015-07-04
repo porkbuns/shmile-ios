@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A535896BE0C65690DE5652A9 /* Pods_Shmile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40E89511B514D714F944A98 /* Pods_Shmile.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		FFC62F621B40C99A004D3394 /* UICollageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC62F611B40C99A004D3394 /* UICollageView.swift */; };
+		FFC62F651B489FF0004D3394 /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC62F641B489FF0004D3394 /* SocketManager.swift */; };
 		FFE1FBD21B3F4E1300C31864 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE1FBD11B3F4E1300C31864 /* AppDelegate.swift */; };
 		FFE1FBD71B3F4E1300C31864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE1FBD51B3F4E1300C31864 /* Main.storyboard */; };
 		FFE1FBD91B3F4E1300C31864 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE1FBD81B3F4E1300C31864 /* Images.xcassets */; };
@@ -33,6 +34,7 @@
 		85ED6829706586BE947CC1FE /* Pods-Shmile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shmile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shmile/Pods-Shmile.debug.xcconfig"; sourceTree = "<group>"; };
 		C40E89511B514D714F944A98 /* Pods_Shmile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shmile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC62F611B40C99A004D3394 /* UICollageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UICollageView.swift; path = Views/UICollageView.swift; sourceTree = "<group>"; };
+		FFC62F641B489FF0004D3394 /* SocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketManager.swift; sourceTree = "<group>"; };
 		FFE1FBCC1B3F4E1300C31864 /* Shmile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shmile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE1FBD01B3F4E1300C31864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFE1FBD11B3F4E1300C31864 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,14 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		FFC62F631B489FDA004D3394 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FFC62F641B489FF0004D3394 /* SocketManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		FFE1FBC31B3F4E1300C31864 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +123,7 @@
 		FFE1FBCE1B3F4E1300C31864 /* Shmile */ = {
 			isa = PBXGroup;
 			children = (
+				FFC62F631B489FDA004D3394 /* Network */,
 				FFC62F601B40C951004D3394 /* Views */,
 				FFE1FBF31B3F54E500C31864 /* ViewControllers */,
 				FFE1FBD11B3F4E1300C31864 /* AppDelegate.swift */,
@@ -310,6 +321,7 @@
 			files = (
 				FFE1FBD21B3F4E1300C31864 /* AppDelegate.swift in Sources */,
 				FFE1FBF51B3F54F800C31864 /* ViewController.swift in Sources */,
+				FFC62F651B489FF0004D3394 /* SocketManager.swift in Sources */,
 				FFC62F621B40C99A004D3394 /* UICollageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

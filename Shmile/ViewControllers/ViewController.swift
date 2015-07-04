@@ -31,7 +31,7 @@ class ViewController: UIViewController {
   }
   
   override func viewDidAppear(animated: Bool) {
-    setupSocket()
+    SocketManager.sharedInstance.setupSocket()
     self.buttonView.animation = "slideUp"
     self.buttonView.animateNext { () -> () in
       self.buttonView.enabled = true
@@ -41,14 +41,6 @@ class ViewController: UIViewController {
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
-  }
-  
-  func setupSocket() {
-    println("Setup Socket")
-    socket.on("connect") { data, ack in
-      println("Socket Connected")
-    }
-    socket.connect()
   }
   
   func onBeginClicked() {
@@ -79,11 +71,22 @@ class ViewController: UIViewController {
   func changeZoom(timer: NSTimer) {
     let index = timer.userInfo as? Int
     if (index < 4) {
-      collageView.zoomOnImage(index!)
+      collageView.zoomOnImage(index!, callback: { (iv: UIImageView) -> Void in
+        //iv.image = UIImage(named: "test_image")
+        UIView.transitionWithView(iv, duration: 0.5, options: UIViewAnimationOptions.TransitionCrossDissolve, animations: { () -> Void in
+          iv.image = UIImage(named: "test_image")
+          }, completion: nil)
+      })
       NSTimer.scheduledTimerWithTimeInterval(1.5, target: self, selector: Selector("changeZoom:"), userInfo: index! + 1, repeats: false)
     }
     else {
-      collageView.unzoom()
+      collageView.unzoom({ () in
+        UIView .animateWithDuration(0.3, animations: { () -> Void in
+          self.collageView.transform = CGAffineTransformMakeTranslation(-self.view.frame.size.width, 0)
+          }, completion: { (value: Bool) in
+            self.createCollageView()
+        })
+      })
     }
   }
 }

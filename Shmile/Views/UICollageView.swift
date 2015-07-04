@@ -61,15 +61,17 @@ class UICollageView: SpringView {
     return CGPointMake(translateX, translateY)
   }
   
-  func unzoom() {
+  func unzoom(callback: ((Void) -> Void)?) {
     if (zoomedIndex != nil) {
       UIView.animateWithDuration(0.5, delay: 0.0, usingSpringWithDamping: 0.5, initialSpringVelocity: 1.5, options: UIViewAnimationOptions.CurveEaseInOut, animations: ({
         self.transform = CGAffineTransformMakeScale(1, 1)
-      }), completion: nil)
+      }), completion: { (done: Bool) in
+        callback?()
+      })
     }
   }
   
-  func zoomOnImage(index: Int) {
+  func zoomOnImage(index: Int, callback: ((UIImageView) -> Void)?) {
     let scale:CGFloat = 2
     
     if (zoomedIndex != nil) {
@@ -80,7 +82,10 @@ class UICollageView: SpringView {
         UIView.animateWithDuration(0.5, delay: 0.1, usingSpringWithDamping: 0.5, initialSpringVelocity: 1.5, options: UIViewAnimationOptions.CurveEaseInOut, animations: ({
         let translate = CGAffineTransformMakeTranslation(t.x, t.y)
         self.transform = CGAffineTransformScale(translate, scale, scale)
-        }), completion: nil)
+        }), completion: { (done: Bool) in
+          let iv = self.imageViews[index]
+          callback?(iv)
+        })
       })
       return
     }
@@ -89,7 +94,10 @@ class UICollageView: SpringView {
     UIView.animateWithDuration(0.5, delay: 0.0, usingSpringWithDamping: 0.5, initialSpringVelocity: 1.5, options: UIViewAnimationOptions.CurveEaseInOut, animations: ({
       let translate = CGAffineTransformMakeTranslation(t.x, t.y)
       self.transform = CGAffineTransformScale(translate, scale, scale)
-    }), completion: nil)
+    }), completion: { (done: Bool) in
+      let iv = self.imageViews[index]
+      callback?(iv)
+    })
 
     zoomedIndex = index
   }
