@@ -48,10 +48,10 @@ code_sign() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework 'DKChainableAnimationKit.framework'
   install_framework 'Socket_IO_Client_Swift.framework'
+  install_framework 'Spring.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework 'DKChainableAnimationKit.framework'
   install_framework 'Socket_IO_Client_Swift.framework'
+  install_framework 'Spring.framework'
 fi

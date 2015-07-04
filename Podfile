@@ -1,10 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
 # Uncomment this line to define a global platform for your project
-# platform :ios, '6.0'
+#platform :ios, '8.0'\
 use_frameworks!
 
 target 'Shmile' do
-  pod "DKChainableAnimationKit", "~> 1.5.0"
-  pod 'Socket.IO-Client-Swift', '~> 2.3'
+  pod 'Socket.IO-Client-Swift', '~> 2.3.6'
+  pod 'Spring', '~> 1.0.3'
 end
 
 target 'ShmileTests' do

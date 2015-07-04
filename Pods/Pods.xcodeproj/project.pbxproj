@@ -7,320 +7,385 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B9C75CFB70CB222A1054BD1 /* SocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20872B3D632851DA2C51B4CF /* SocketParser.swift */; };
-		1CED18AF2423F1EE0FDB810D /* DKChainableAnimationKit+Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF327EEACCF4217B297E579 /* DKChainableAnimationKit+Transform.swift */; };
-		2374CF82F246443C5F65B639 /* Pods-Shmile-Socket.IO-Client-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55DB32FBB5D3AF8612EFDA19 /* Pods-Shmile-Socket.IO-Client-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A7E797FACDBDD02DC5AF2E1 /* Pods-Shmile-DKChainableAnimationKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD145048D0C0208F3B4EE135 /* Pods-Shmile-DKChainableAnimationKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		394D2EC93A18172570278656 /* DKChainableAnimationKit+Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323E33A1D13DB769D6FBFEEC /* DKChainableAnimationKit+Anchor.swift */; };
-		40A98B160E93562DD3A7D8C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3F2944EDCEA0A4BDD07A7A /* Foundation.framework */; };
-		4A723265617C2B36490C78C9 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EB4B67BCF9C081D1E7DD5D /* SocketIOClient.swift */; };
-		58CB429A41A8C076A14EE3B9 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB545BF1A6C54EA12E0AF07 /* WebSocket.swift */; };
-		5978A8933C7538FBD1CF0741 /* DKChainableAnimationKit+Bezier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB85E3AE0E3AE1D555E8760E /* DKChainableAnimationKit+Bezier.swift */; };
-		69D81A609E6C02E851D3CAF3 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B751A54CDF4CEDC0BD3FFA /* SocketTypes.swift */; };
-		7C58CBCC61F17ADF16744F23 /* DKKeyFrameAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6F85B4EB91EF84C6BBCB6 /* DKKeyFrameAnimation.swift */; };
-		87CBDBD143B90F7CACBC5660 /* DKChainableAnimationKit+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D16018012D2B00F32C66CC /* DKChainableAnimationKit+Frame.swift */; };
-		8A5B61707E32A6C72CE2B74C /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C09A0B2D1FF78110819984D /* SocketPacket.swift */; };
-		8F9C8ADFB77299465E8C1B41 /* SocketFixUTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743CC200445AAEA1ACE4B7E7 /* SocketFixUTF8.swift */; };
-		9213F9A32CB95997FD80B3BC /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68091CBF3205AD0EDCEB8108 /* SwiftRegex.swift */; };
-		925F20EBB705C5CB919C9AF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3F2944EDCEA0A4BDD07A7A /* Foundation.framework */; };
-		9D60288BA60F14839CDA8D40 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85365EB403C02A6BAF2C49CE /* SocketEngineClient.swift */; };
-		A1AE892CCC75889321F34591 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9B2F37AF9546FE4CD4A491 /* SocketAckManager.swift */; };
-		AC10FB8698FCEA4E6597E759 /* DKChainableAnimationKit+Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6116C0F8A27E46356E15C /* DKChainableAnimationKit+Extra.swift */; };
-		B141111CFF95669389D9DB81 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4F60EABB2DA2DC8229795C /* SocketEventHandler.swift */; };
-		B87177225FB97714D172B96D /* Pods-Shmile-DKChainableAnimationKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E39EBBD04AFAEFC210ADC97 /* Pods-Shmile-DKChainableAnimationKit-dummy.m */; };
-		BBC5F17018BDFBC1525EF889 /* DKChainableAnimationKit+Effects.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40F16FEFDDFA36C5ADBE5DD /* DKChainableAnimationKit+Effects.swift */; };
-		BC54B6D2632E345EDF40136B /* DKChainableAnimationKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4512C2BA24DE42DAE9F25C8 /* DKChainableAnimationKit.swift */; };
-		C9703BE10392E62665D3C835 /* Pods-Shmile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83083E462839EE0BAAC58848 /* Pods-Shmile-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D04D7765AD27E700EAF880E1 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85572FFCC309DB1E75F2123 /* SocketLogger.swift */; };
-		D372CE8EADE15A1EE3CCF968 /* Pods-Shmile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CEF7DC16226FD5FA6F59ADC /* Pods-Shmile-dummy.m */; };
-		D7C6CA6D92BCB3EE298E530B /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B26FD8EDE2D387C7CBF1FC /* SocketEngine.swift */; };
-		D9B7DC7E1632F922B0406545 /* DKKeyframeAnimationFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE4D3EB1A102E62140A55F /* DKKeyframeAnimationFunction.swift */; };
-		DA25344B37E0A9C601B8935F /* UIView+AnimationKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36171A11C53DE0B6C4255B1B /* UIView+AnimationKit.swift */; };
-		E6A3A3C37A7CA76763FC6989 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3F2944EDCEA0A4BDD07A7A /* Foundation.framework */; };
-		E92FFE24C6DE38CF02558449 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C569783022D24C8B2370C0 /* SocketAnyEvent.swift */; };
-		FF4D571709253F5EC0815628 /* Pods-Shmile-Socket.IO-Client-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1824AA87FE374C080CC9493E /* Pods-Shmile-Socket.IO-Client-Swift-dummy.m */; };
+		0104A4E8E7535AFA6491C465 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = B389F5AA47DE7AD05788E569 /* Spring.swift */; };
+		03E45C8499B1FA5F379D09AE /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B02A6CD5548E3703D2B6EB /* LoadingView.swift */; };
+		176CFB90FD131F997C4A2621 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873F369D68007DE3CD85900B /* SocketAnyEvent.swift */; };
+		1AA9B3809CC853866415ADE2 /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC2A32954B5826C629E1791 /* SpringTextField.swift */; };
+		1F908628B7F9A9C9D456B26B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4EB546C7CFD891F51255EC /* Foundation.framework */; };
+		234B22E119DF14A5011DCEE0 /* Pods-Shmile-Spring-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8AB4582763E75C19241366 /* Pods-Shmile-Spring-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2841A151F946EB29436A0B32 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB44E9706EC9B376FC99AC73 /* ImageLoader.swift */; };
+		292CCAC7C5FAB747F37B7673 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4636350BA41EAB8B9AD3E881 /* Images.xcassets */; };
+		299094BA88D52C94E0D33629 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574D13CC108A0A94D12B4BD9 /* AsyncImageView.swift */; };
+		3387ACF97EE5496312E4CF03 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280AE50D674C6BBEAA7D24CE /* SpringImageView.swift */; };
+		3B1EC8AB627208949A864777 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AAFC78E589BB8BB60B9853 /* SpringButton.swift */; };
+		3FAC13805C792A1A8D45F83D /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAE4682E119EC2EC016633D /* Misc.swift */; };
+		4C023D9286A12ABEFA04205D /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31169F96330486A78C5CE1D5 /* BlurView.swift */; };
+		4E56368ED4814E8033BB3FFE /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA29E68C65640F3EF7317C5 /* DesignableButton.swift */; };
+		56546D8D0AF5ADDC4CEEFE01 /* Pods-Shmile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 624A022A3CDE7CF06401668B /* Pods-Shmile-dummy.m */; };
+		56CF1E85654B5601A95F3893 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A279C9088C5E167FA365503C /* TransitionManager.swift */; };
+		5B317C56C0C113EF69E4C5A5 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51ED803456CD8489C4A2B45B /* SocketAckManager.swift */; };
+		5CCC2F094CD5DAE90B07DF22 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE0BA86CAD8477C5CFC8C94 /* AutoTextView.swift */; };
+		63A73C6E560215CF33B82442 /* SocketFixUTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDD3C9B129A27A7E2AAB833 /* SocketFixUTF8.swift */; };
+		65281EF1CF4F42F2B1C1DCBB /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E32851972925B966F5959 /* DesignableImageView.swift */; };
+		6785AAB04CD31041A7709676 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0203B06D22C3BC0DB37FE265 /* SocketEventHandler.swift */; };
+		6FB89663B4ED7D2392D3D837 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF216AF6D654EF09405CA210 /* DesignableTextView.swift */; };
+		70E556BF59149C13EDC662B8 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24BEA413869890352BE2F41 /* DesignableTabBarController.swift */; };
+		745C76B93B9E59750EACB4BD /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6319905C8BA4B4C687305E41 /* SpringAnimation.swift */; };
+		79B948956079BB359C5B4E6A /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB27F8B4D5225FA635AE222D /* SoundPlayer.swift */; };
+		79BC682D18C3893CA8121272 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF24F5A0BB1F1ACA1478E14B /* AsyncButton.swift */; };
+		7CCD1F3C9C9618368FDDAD17 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E9C69DDC998C0BA6482157 /* SocketLogger.swift */; };
+		829DE3BABC5ACFB51722EBF1 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261FC30E47ADB9A8BA0E5F27 /* DesignableView.swift */; };
+		82D86D21F93551FC8B29365C /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99DEB1519701D3BA6E364C /* SocketEngine.swift */; };
+		8532417A017D13BDBEE11167 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EA8F62C5182563297106C0 /* SocketTypes.swift */; };
+		9178C7EA015F0497EEC41937 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71857001B40AFC3F127983 /* DesignableLabel.swift */; };
+		92115C1013860B8F99986D34 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CC361CB083D38BF17FD1FB /* SpringLabel.swift */; };
+		94E144B5F196F52771349520 /* Pods-Shmile-Spring-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B06E36728D2A90CD16EB8EA2 /* Pods-Shmile-Spring-dummy.m */; };
+		97EC8055CDC7FDF44515CD95 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492BAA1E171963E4378BE28 /* SpringTextView.swift */; };
+		9DB72E9E3068924C56A318C5 /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954274A9D1FFF2CD20790406 /* SwiftRegex.swift */; };
+		A19C5F568B018397D9E68E89 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39853393C98030E9A30859BA /* KeyboardLayoutConstraint.swift */; };
+		A1C67C8C58CD40E76600E64B /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1569C2A6DA9DE442E0FD3A /* TransitionZoom.swift */; };
+		B0C3596FFF03222DC4625574 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4162221639E2C3F7428DC486 /* SocketEngineClient.swift */; };
+		BC43405291A0F92F8E58DC10 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5F99208FD47893EA3E59BA /* WebSocket.swift */; };
+		C35F0D02165CD57061CDF911 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4EB546C7CFD891F51255EC /* Foundation.framework */; };
+		C4F7F8E6174921D77BF9BAC6 /* SocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B278696A7E06C4F4E7091 /* SocketParser.swift */; };
+		C5E1105C0CE7790934CE9EE6 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 149C557E90B3B0E0EA9CAC36 /* LoadingView.xib */; };
+		C60C9B4D38E98195DB96F683 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A06DA28C080C2A204A24040 /* SpringView.swift */; };
+		CDCE373677F07F27C0740505 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F4AB587AD6B4F3C686AC08 /* DesignableTextField.swift */; };
+		CE70BA33DF7A6F0C583D51FE /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7304D3452F7B2ACA7DA76E3D /* SocketIOClient.swift */; };
+		D498D46789E0EA1E4A0B8A6C /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EC69C2C7D2A4E42210DDB7 /* SocketPacket.swift */; };
+		E9FD2DDCF58D223CAB92AE71 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D18A26FA13C606F4A53B17 /* UnwindSegue.swift */; };
+		EAEAA54A0DADD5371B21AF10 /* Pods-Shmile-Socket.IO-Client-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E4058E228A9C4672D7F1C80 /* Pods-Shmile-Socket.IO-Client-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDDBB83013D8CBD424E9C280 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4EB546C7CFD891F51255EC /* Foundation.framework */; };
+		F88A9494D069A2770C47FC4C /* Pods-Shmile-Socket.IO-Client-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5800F8046243338713CD8E9B /* Pods-Shmile-Socket.IO-Client-Swift-dummy.m */; };
+		FCA7ACCAA8962704BCF72FC7 /* Pods-Shmile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B25BA194EBE45A92EEEB744E /* Pods-Shmile-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A3E393F69F35E81F28EAE2EA /* PBXContainerItemProxy */ = {
+		C16813EA1ACFB0C888F2F5B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FB0543370882935E7F461372 /* Project object */;
+			containerPortal = DF83CAC55AEA21F87A737885 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 190176A1F477257E0828ABA7;
-			remoteInfo = "Pods-Shmile-Socket.IO-Client-Swift";
+			remoteGlobalIDString = E64158E1A57BEF6FAA5241D0;
+			remoteInfo = "Pods-Shmile-Spring";
 		};
-		B8CF91BC386C1222FA2A4A38 /* PBXContainerItemProxy */ = {
+		D7C432FA060C83EC1E2C986F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FB0543370882935E7F461372 /* Project object */;
+			containerPortal = DF83CAC55AEA21F87A737885 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3285124D207E69AF3820ABC1;
-			remoteInfo = "Pods-Shmile-DKChainableAnimationKit";
+			remoteGlobalIDString = 0AA18432CDC87E49E0012BD1;
+			remoteInfo = "Pods-Shmile-Socket.IO-Client-Swift";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		011717BCEDB34C61F9688CC6 /* Pods-Shmile-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Shmile-acknowledgements.markdown"; sourceTree = "<group>"; };
-		05EB4B67BCF9C081D1E7DD5D /* SocketIOClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClient.swift; path = SocketIOClientSwift/SocketIOClient.swift; sourceTree = "<group>"; };
-		0CB545BF1A6C54EA12E0AF07 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = SocketIOClientSwift/WebSocket.swift; sourceTree = "<group>"; };
-		0D1D31DC453DD575D17716B8 /* Pods-Shmile.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shmile.modulemap"; sourceTree = "<group>"; };
-		1824AA87FE374C080CC9493E /* Pods-Shmile-Socket.IO-Client-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shmile-Socket.IO-Client-Swift-dummy.m"; sourceTree = "<group>"; };
-		1E39EBBD04AFAEFC210ADC97 /* Pods-Shmile-DKChainableAnimationKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shmile-DKChainableAnimationKit-dummy.m"; sourceTree = "<group>"; };
-		20872B3D632851DA2C51B4CF /* SocketParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketParser.swift; path = SocketIOClientSwift/SocketParser.swift; sourceTree = "<group>"; };
-		270A0BB0358046292C2E0A56 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CEF7DC16226FD5FA6F59ADC /* Pods-Shmile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shmile-dummy.m"; sourceTree = "<group>"; };
-		323E33A1D13DB769D6FBFEEC /* DKChainableAnimationKit+Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DKChainableAnimationKit+Anchor.swift"; path = "DKChainableAnimationKit/Classes/DKChainableAnimationKit+Anchor.swift"; sourceTree = "<group>"; };
-		36171A11C53DE0B6C4255B1B /* UIView+AnimationKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+AnimationKit.swift"; path = "DKChainableAnimationKit/Classes/UIView+AnimationKit.swift"; sourceTree = "<group>"; };
-		3C09A0B2D1FF78110819984D /* SocketPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketPacket.swift; path = SocketIOClientSwift/SocketPacket.swift; sourceTree = "<group>"; };
-		3D98AB2A22B61265CC619024 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F3F2944EDCEA0A4BDD07A7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		443F47449841A623213CF412 /* Pods-Shmile-DKChainableAnimationKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-DKChainableAnimationKit-prefix.pch"; sourceTree = "<group>"; };
-		491143AA1A52767FF2A2F75B /* Pods-Shmile-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-environment.h"; sourceTree = "<group>"; };
-		4AD9FA5243D9BBA00BB1B1A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DF6116C0F8A27E46356E15C /* DKChainableAnimationKit+Extra.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DKChainableAnimationKit+Extra.swift"; path = "DKChainableAnimationKit/Classes/DKChainableAnimationKit+Extra.swift"; sourceTree = "<group>"; };
-		543D82708CC348F0ABB9CD56 /* Pods-Shmile-Socket.IO-Client-Swift-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile-Socket.IO-Client-Swift-Private.xcconfig"; sourceTree = "<group>"; };
-		55DB32FBB5D3AF8612EFDA19 /* Pods-Shmile-Socket.IO-Client-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-Socket.IO-Client-Swift-umbrella.h"; sourceTree = "<group>"; };
-		68091CBF3205AD0EDCEB8108 /* SwiftRegex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftRegex.swift; path = SocketIOClientSwift/SwiftRegex.swift; sourceTree = "<group>"; };
-		6F769B21E6C42DA7F8ED6E18 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6FEFD60250CCDC3B871C5FFD /* Pods-Shmile-DKChainableAnimationKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile-DKChainableAnimationKit-Private.xcconfig"; sourceTree = "<group>"; };
-		7104485A07F4BECCC5BB45EF /* DKChainableAnimationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKChainableAnimationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		743CC200445AAEA1ACE4B7E7 /* SocketFixUTF8.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketFixUTF8.swift; path = SocketIOClientSwift/SocketFixUTF8.swift; sourceTree = "<group>"; };
-		83083E462839EE0BAAC58848 /* Pods-Shmile-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-umbrella.h"; sourceTree = "<group>"; };
-		85365EB403C02A6BAF2C49CE /* SocketEngineClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineClient.swift; path = SocketIOClientSwift/SocketEngineClient.swift; sourceTree = "<group>"; };
-		8B9B2F37AF9546FE4CD4A491 /* SocketAckManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAckManager.swift; path = SocketIOClientSwift/SocketAckManager.swift; sourceTree = "<group>"; };
-		93252A84FF8B9FBE64213AF4 /* Pods-Shmile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile.debug.xcconfig"; sourceTree = "<group>"; };
-		99C569783022D24C8B2370C0 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAnyEvent.swift; path = SocketIOClientSwift/SocketAnyEvent.swift; sourceTree = "<group>"; };
-		A078761675446CC55ABF3422 /* Pods-Shmile-DKChainableAnimationKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shmile-DKChainableAnimationKit.modulemap"; sourceTree = "<group>"; };
-		A083FF2D3E43AF9746658A57 /* Pods-Shmile-DKChainableAnimationKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile-DKChainableAnimationKit.xcconfig"; sourceTree = "<group>"; };
-		A0D16018012D2B00F32C66CC /* DKChainableAnimationKit+Frame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DKChainableAnimationKit+Frame.swift"; path = "DKChainableAnimationKit/Classes/DKChainableAnimationKit+Frame.swift"; sourceTree = "<group>"; };
-		AB20F702FFD138D978472D8E /* Pods-Shmile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile.release.xcconfig"; sourceTree = "<group>"; };
-		AD4F60EABB2DA2DC8229795C /* SocketEventHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEventHandler.swift; path = SocketIOClientSwift/SocketEventHandler.swift; sourceTree = "<group>"; };
-		B4B26FD8EDE2D387C7CBF1FC /* SocketEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngine.swift; path = SocketIOClientSwift/SocketEngine.swift; sourceTree = "<group>"; };
-		BB85E3AE0E3AE1D555E8760E /* DKChainableAnimationKit+Bezier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DKChainableAnimationKit+Bezier.swift"; path = "DKChainableAnimationKit/Classes/DKChainableAnimationKit+Bezier.swift"; sourceTree = "<group>"; };
-		BD6F87019C996C1087D4CEBB /* Pods-Shmile-Socket.IO-Client-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-Socket.IO-Client-Swift-prefix.pch"; sourceTree = "<group>"; };
-		BFF8D592B5AEC5B1D22A50D8 /* Socket_IO_Client_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Socket_IO_Client_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C168B1D1E7DD08E76A90DE78 /* Pods-Shmile-Socket.IO-Client-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shmile-Socket.IO-Client-Swift.modulemap"; sourceTree = "<group>"; };
-		C85572FFCC309DB1E75F2123 /* SocketLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketLogger.swift; path = SocketIOClientSwift/SocketLogger.swift; sourceTree = "<group>"; };
-		CCF327EEACCF4217B297E579 /* DKChainableAnimationKit+Transform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DKChainableAnimationKit+Transform.swift"; path = "DKChainableAnimationKit/Classes/DKChainableAnimationKit+Transform.swift"; sourceTree = "<group>"; };
-		D0B751A54CDF4CEDC0BD3FFA /* SocketTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketTypes.swift; path = SocketIOClientSwift/SocketTypes.swift; sourceTree = "<group>"; };
-		D4C6B30CA0A011A4E11E7E8F /* Pods-Shmile-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shmile-frameworks.sh"; sourceTree = "<group>"; };
-		D5B3BE67414CB061D89117A0 /* Pods-Shmile-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shmile-resources.sh"; sourceTree = "<group>"; };
-		E4512C2BA24DE42DAE9F25C8 /* DKChainableAnimationKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKChainableAnimationKit.swift; path = DKChainableAnimationKit/Classes/DKChainableAnimationKit.swift; sourceTree = "<group>"; };
-		EAE6F85B4EB91EF84C6BBCB6 /* DKKeyFrameAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKKeyFrameAnimation.swift; path = DKChainableAnimationKit/Classes/DKKeyFrameAnimation.swift; sourceTree = "<group>"; };
-		ED91E48FCA491D1B6A509F39 /* Pods_Shmile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shmile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F40F16FEFDDFA36C5ADBE5DD /* DKChainableAnimationKit+Effects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DKChainableAnimationKit+Effects.swift"; path = "DKChainableAnimationKit/Classes/DKChainableAnimationKit+Effects.swift"; sourceTree = "<group>"; };
-		FB38C741238B4E8C579DE160 /* Pods-Shmile-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Shmile-acknowledgements.plist"; sourceTree = "<group>"; };
-		FC83D3C64594C6FC739CCD0D /* Pods-Shmile-Socket.IO-Client-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile-Socket.IO-Client-Swift.xcconfig"; sourceTree = "<group>"; };
-		FD145048D0C0208F3B4EE135 /* Pods-Shmile-DKChainableAnimationKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-DKChainableAnimationKit-umbrella.h"; sourceTree = "<group>"; };
-		FEAE4D3EB1A102E62140A55F /* DKKeyframeAnimationFunction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKKeyframeAnimationFunction.swift; path = DKChainableAnimationKit/Classes/DKKeyframeAnimationFunction.swift; sourceTree = "<group>"; };
+		0203B06D22C3BC0DB37FE265 /* SocketEventHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEventHandler.swift; path = SocketIOClientSwift/SocketEventHandler.swift; sourceTree = "<group>"; };
+		0CDD3C9B129A27A7E2AAB833 /* SocketFixUTF8.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketFixUTF8.swift; path = SocketIOClientSwift/SocketFixUTF8.swift; sourceTree = "<group>"; };
+		0F5F99208FD47893EA3E59BA /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = SocketIOClientSwift/WebSocket.swift; sourceTree = "<group>"; };
+		1492BAA1E171963E4378BE28 /* SpringTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextView.swift; path = Spring/SpringTextView.swift; sourceTree = "<group>"; };
+		149C557E90B3B0E0EA9CAC36 /* LoadingView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LoadingView.xib; path = Spring/LoadingView.xib; sourceTree = "<group>"; };
+		16A77DC79E662B56693CC35D /* Spring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Spring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B4EB546C7CFD891F51255EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1DD820EA396AFDE336E0D063 /* Pods-Shmile-Spring-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile-Spring-Private.xcconfig"; sourceTree = "<group>"; };
+		1FDC857319A22B71772B4479 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		21B02A6CD5548E3703D2B6EB /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = Spring/LoadingView.swift; sourceTree = "<group>"; };
+		261FC30E47ADB9A8BA0E5F27 /* DesignableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = Spring/DesignableView.swift; sourceTree = "<group>"; };
+		280AE50D674C6BBEAA7D24CE /* SpringImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringImageView.swift; path = Spring/SpringImageView.swift; sourceTree = "<group>"; };
+		2B8AB4582763E75C19241366 /* Pods-Shmile-Spring-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-Spring-umbrella.h"; sourceTree = "<group>"; };
+		31169F96330486A78C5CE1D5 /* BlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = Spring/BlurView.swift; sourceTree = "<group>"; };
+		36EA6AB7EEA58BD745166E2E /* Pods-Shmile-Spring-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-Spring-prefix.pch"; sourceTree = "<group>"; };
+		39853393C98030E9A30859BA /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutConstraint.swift; path = Spring/KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		3D9C58696F04A969ACD6C368 /* Pods-Shmile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile.release.xcconfig"; sourceTree = "<group>"; };
+		3E4058E228A9C4672D7F1C80 /* Pods-Shmile-Socket.IO-Client-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-Socket.IO-Client-Swift-umbrella.h"; sourceTree = "<group>"; };
+		4162221639E2C3F7428DC486 /* SocketEngineClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineClient.swift; path = SocketIOClientSwift/SocketEngineClient.swift; sourceTree = "<group>"; };
+		4636350BA41EAB8B9AD3E881 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SpringApp/Images.xcassets; sourceTree = "<group>"; };
+		51ED803456CD8489C4A2B45B /* SocketAckManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAckManager.swift; path = SocketIOClientSwift/SocketAckManager.swift; sourceTree = "<group>"; };
+		54DAC021A73DE600F141205E /* Pods-Shmile-Socket.IO-Client-Swift-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile-Socket.IO-Client-Swift-Private.xcconfig"; sourceTree = "<group>"; };
+		5596E72F3822405D5158FD95 /* Pods-Shmile-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-environment.h"; sourceTree = "<group>"; };
+		574D13CC108A0A94D12B4BD9 /* AsyncImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncImageView.swift; path = Spring/AsyncImageView.swift; sourceTree = "<group>"; };
+		5800F8046243338713CD8E9B /* Pods-Shmile-Socket.IO-Client-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shmile-Socket.IO-Client-Swift-dummy.m"; sourceTree = "<group>"; };
+		624A022A3CDE7CF06401668B /* Pods-Shmile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shmile-dummy.m"; sourceTree = "<group>"; };
+		62635CFCE5C44469766ECB72 /* Pods-Shmile-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shmile-frameworks.sh"; sourceTree = "<group>"; };
+		6319905C8BA4B4C687305E41 /* SpringAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringAnimation.swift; path = Spring/SpringAnimation.swift; sourceTree = "<group>"; };
+		7304D3452F7B2ACA7DA76E3D /* SocketIOClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClient.swift; path = SocketIOClientSwift/SocketIOClient.swift; sourceTree = "<group>"; };
+		740B278696A7E06C4F4E7091 /* SocketParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketParser.swift; path = SocketIOClientSwift/SocketParser.swift; sourceTree = "<group>"; };
+		86D017BC6FBF5A9F23456694 /* Pods-Shmile-Socket.IO-Client-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shmile-Socket.IO-Client-Swift.modulemap"; sourceTree = "<group>"; };
+		873F369D68007DE3CD85900B /* SocketAnyEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAnyEvent.swift; path = SocketIOClientSwift/SocketAnyEvent.swift; sourceTree = "<group>"; };
+		8FE0BA86CAD8477C5CFC8C94 /* AutoTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoTextView.swift; path = Spring/AutoTextView.swift; sourceTree = "<group>"; };
+		914F1E7D3F5CD4565DC78624 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		954274A9D1FFF2CD20790406 /* SwiftRegex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftRegex.swift; path = SocketIOClientSwift/SwiftRegex.swift; sourceTree = "<group>"; };
+		9A06DA28C080C2A204A24040 /* SpringView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringView.swift; path = Spring/SpringView.swift; sourceTree = "<group>"; };
+		9AA29E68C65640F3EF7317C5 /* DesignableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableButton.swift; path = Spring/DesignableButton.swift; sourceTree = "<group>"; };
+		9DAA230B3DFD1861BE44A173 /* Pods-Shmile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile.debug.xcconfig"; sourceTree = "<group>"; };
+		9E71857001B40AFC3F127983 /* DesignableLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableLabel.swift; path = Spring/DesignableLabel.swift; sourceTree = "<group>"; };
+		9F537251CBEBA048C22FDB6B /* Pods-Shmile.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shmile.modulemap"; sourceTree = "<group>"; };
+		A0065C35BD77B61A99EC5835 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A279C9088C5E167FA365503C /* TransitionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionManager.swift; path = Spring/TransitionManager.swift; sourceTree = "<group>"; };
+		A3F4F18B205C96A5D4F22381 /* Pods-Shmile-Socket.IO-Client-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-Socket.IO-Client-Swift-prefix.pch"; sourceTree = "<group>"; };
+		A58E32851972925B966F5959 /* DesignableImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableImageView.swift; path = Spring/DesignableImageView.swift; sourceTree = "<group>"; };
+		A6E9C69DDC998C0BA6482157 /* SocketLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketLogger.swift; path = SocketIOClientSwift/SocketLogger.swift; sourceTree = "<group>"; };
+		A7C5F5E432B91E41C5EDE2B4 /* Pods-Shmile-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Shmile-acknowledgements.plist"; sourceTree = "<group>"; };
+		A9CC361CB083D38BF17FD1FB /* SpringLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringLabel.swift; path = Spring/SpringLabel.swift; sourceTree = "<group>"; };
+		AF216AF6D654EF09405CA210 /* DesignableTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextView.swift; path = Spring/DesignableTextView.swift; sourceTree = "<group>"; };
+		B06E36728D2A90CD16EB8EA2 /* Pods-Shmile-Spring-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shmile-Spring-dummy.m"; sourceTree = "<group>"; };
+		B25BA194EBE45A92EEEB744E /* Pods-Shmile-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shmile-umbrella.h"; sourceTree = "<group>"; };
+		B389F5AA47DE7AD05788E569 /* Spring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spring.swift; path = Spring/Spring.swift; sourceTree = "<group>"; };
+		BB27F8B4D5225FA635AE222D /* SoundPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SoundPlayer.swift; path = Spring/SoundPlayer.swift; sourceTree = "<group>"; };
+		BF24F5A0BB1F1ACA1478E14B /* AsyncButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncButton.swift; path = Spring/AsyncButton.swift; sourceTree = "<group>"; };
+		C7EC69C2C7D2A4E42210DDB7 /* SocketPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketPacket.swift; path = SocketIOClientSwift/SocketPacket.swift; sourceTree = "<group>"; };
+		CCC2A32954B5826C629E1791 /* SpringTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextField.swift; path = Spring/SpringTextField.swift; sourceTree = "<group>"; };
+		D1D18A26FA13C606F4A53B17 /* UnwindSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnwindSegue.swift; path = Spring/UnwindSegue.swift; sourceTree = "<group>"; };
+		D5EA8F62C5182563297106C0 /* SocketTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketTypes.swift; path = SocketIOClientSwift/SocketTypes.swift; sourceTree = "<group>"; };
+		D82E253F4E276DDA34CA2D27 /* Pods-Shmile-Spring.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shmile-Spring.modulemap"; sourceTree = "<group>"; };
+		D9740DA14524107696EF1674 /* Pods-Shmile-Socket.IO-Client-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile-Socket.IO-Client-Swift.xcconfig"; sourceTree = "<group>"; };
+		DE99DEB1519701D3BA6E364C /* SocketEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngine.swift; path = SocketIOClientSwift/SocketEngine.swift; sourceTree = "<group>"; };
+		DF1569C2A6DA9DE442E0FD3A /* TransitionZoom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionZoom.swift; path = Spring/TransitionZoom.swift; sourceTree = "<group>"; };
+		E24BEA413869890352BE2F41 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTabBarController.swift; path = Spring/DesignableTabBarController.swift; sourceTree = "<group>"; };
+		E7A493DAD801F477D9A18D55 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E81F80D11416352288DE13F3 /* Pods_Shmile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shmile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB44E9706EC9B376FC99AC73 /* ImageLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = Spring/ImageLoader.swift; sourceTree = "<group>"; };
+		F6AAFC78E589BB8BB60B9853 /* SpringButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringButton.swift; path = Spring/SpringButton.swift; sourceTree = "<group>"; };
+		F6B219052F919C764C0C46AA /* Pods-Shmile-Spring.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shmile-Spring.xcconfig"; sourceTree = "<group>"; };
+		F7F4AB587AD6B4F3C686AC08 /* DesignableTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextField.swift; path = Spring/DesignableTextField.swift; sourceTree = "<group>"; };
+		F89F486B3C9C330EE7738909 /* Pods-Shmile-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Shmile-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F98B0C1FBE3426B2DF6ECDC9 /* Socket_IO_Client_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Socket_IO_Client_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAD1BDE518D3B41CCFAC3C2 /* Pods-Shmile-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shmile-resources.sh"; sourceTree = "<group>"; };
+		FCAE4682E119EC2EC016633D /* Misc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Misc.swift; path = Spring/Misc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3947F25161586586982DD4B1 /* Frameworks */ = {
+		293454A1A2D2B3AD9B12585D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40A98B160E93562DD3A7D8C4 /* Foundation.framework in Frameworks */,
+				C35F0D02165CD57061CDF911 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F7C7570409528286E03045D /* Frameworks */ = {
+		B10EB4BA5800F351DC25A6A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				925F20EBB705C5CB919C9AF9 /* Foundation.framework in Frameworks */,
+				1F908628B7F9A9C9D456B26B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA33F2E052760051699DACEE /* Frameworks */ = {
+		DFFBD554729064662B4F2565 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6A3A3C37A7CA76763FC6989 /* Foundation.framework in Frameworks */,
+				EDDBB83013D8CBD424E9C280 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1119383A669CC5AE41C3E401 /* Support Files */ = {
+		095D7C8E19BC7D8FAD379C3C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4AD9FA5243D9BBA00BB1B1A3 /* Info.plist */,
-				A078761675446CC55ABF3422 /* Pods-Shmile-DKChainableAnimationKit.modulemap */,
-				A083FF2D3E43AF9746658A57 /* Pods-Shmile-DKChainableAnimationKit.xcconfig */,
-				6FEFD60250CCDC3B871C5FFD /* Pods-Shmile-DKChainableAnimationKit-Private.xcconfig */,
-				1E39EBBD04AFAEFC210ADC97 /* Pods-Shmile-DKChainableAnimationKit-dummy.m */,
-				443F47449841A623213CF412 /* Pods-Shmile-DKChainableAnimationKit-prefix.pch */,
-				FD145048D0C0208F3B4EE135 /* Pods-Shmile-DKChainableAnimationKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-Shmile-DKChainableAnimationKit";
-			sourceTree = "<group>";
-		};
-		17579722CC6C0ACCF59978B0 = {
-			isa = PBXGroup;
-			children = (
-				6F769B21E6C42DA7F8ED6E18 /* Podfile */,
-				8C3ECE070DCBE89A584DB12D /* Frameworks */,
-				D85819C5193DC6B5E7235AEB /* Pods */,
-				7116ECB8BDD3052DB0D724D3 /* Products */,
-				E22F02C245304152EF821AF6 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		27E0191BC587FAEC71EEFA07 /* Socket.IO-Client-Swift */ = {
-			isa = PBXGroup;
-			children = (
-				8B9B2F37AF9546FE4CD4A491 /* SocketAckManager.swift */,
-				99C569783022D24C8B2370C0 /* SocketAnyEvent.swift */,
-				B4B26FD8EDE2D387C7CBF1FC /* SocketEngine.swift */,
-				85365EB403C02A6BAF2C49CE /* SocketEngineClient.swift */,
-				AD4F60EABB2DA2DC8229795C /* SocketEventHandler.swift */,
-				743CC200445AAEA1ACE4B7E7 /* SocketFixUTF8.swift */,
-				05EB4B67BCF9C081D1E7DD5D /* SocketIOClient.swift */,
-				C85572FFCC309DB1E75F2123 /* SocketLogger.swift */,
-				3C09A0B2D1FF78110819984D /* SocketPacket.swift */,
-				20872B3D632851DA2C51B4CF /* SocketParser.swift */,
-				D0B751A54CDF4CEDC0BD3FFA /* SocketTypes.swift */,
-				68091CBF3205AD0EDCEB8108 /* SwiftRegex.swift */,
-				0CB545BF1A6C54EA12E0AF07 /* WebSocket.swift */,
-				BF624559DEA48A26392944A8 /* Support Files */,
-			);
-			path = "Socket.IO-Client-Swift";
-			sourceTree = "<group>";
-		};
-		3EF02F0369F1894121249DE7 /* Pods-Shmile */ = {
-			isa = PBXGroup;
-			children = (
-				270A0BB0358046292C2E0A56 /* Info.plist */,
-				0D1D31DC453DD575D17716B8 /* Pods-Shmile.modulemap */,
-				011717BCEDB34C61F9688CC6 /* Pods-Shmile-acknowledgements.markdown */,
-				FB38C741238B4E8C579DE160 /* Pods-Shmile-acknowledgements.plist */,
-				2CEF7DC16226FD5FA6F59ADC /* Pods-Shmile-dummy.m */,
-				491143AA1A52767FF2A2F75B /* Pods-Shmile-environment.h */,
-				D4C6B30CA0A011A4E11E7E8F /* Pods-Shmile-frameworks.sh */,
-				D5B3BE67414CB061D89117A0 /* Pods-Shmile-resources.sh */,
-				83083E462839EE0BAAC58848 /* Pods-Shmile-umbrella.h */,
-				93252A84FF8B9FBE64213AF4 /* Pods-Shmile.debug.xcconfig */,
-				AB20F702FFD138D978472D8E /* Pods-Shmile.release.xcconfig */,
-			);
-			name = "Pods-Shmile";
-			path = "Target Support Files/Pods-Shmile";
-			sourceTree = "<group>";
-		};
-		41BC067DB7B4B20FFFD3470A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3F3F2944EDCEA0A4BDD07A7A /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7116ECB8BDD3052DB0D724D3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7104485A07F4BECCC5BB45EF /* DKChainableAnimationKit.framework */,
-				ED91E48FCA491D1B6A509F39 /* Pods_Shmile.framework */,
-				BFF8D592B5AEC5B1D22A50D8 /* Socket_IO_Client_Swift.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8C3ECE070DCBE89A584DB12D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				41BC067DB7B4B20FFFD3470A /* iOS */,
+				8C6F29C0D607059CCAD58F9C /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A9B296F5E3D5C6DFEA6D478F /* DKChainableAnimationKit */ = {
+		14A6E96FFA5F8B9B945200E7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E4512C2BA24DE42DAE9F25C8 /* DKChainableAnimationKit.swift */,
-				323E33A1D13DB769D6FBFEEC /* DKChainableAnimationKit+Anchor.swift */,
-				BB85E3AE0E3AE1D555E8760E /* DKChainableAnimationKit+Bezier.swift */,
-				F40F16FEFDDFA36C5ADBE5DD /* DKChainableAnimationKit+Effects.swift */,
-				4DF6116C0F8A27E46356E15C /* DKChainableAnimationKit+Extra.swift */,
-				A0D16018012D2B00F32C66CC /* DKChainableAnimationKit+Frame.swift */,
-				CCF327EEACCF4217B297E579 /* DKChainableAnimationKit+Transform.swift */,
-				EAE6F85B4EB91EF84C6BBCB6 /* DKKeyFrameAnimation.swift */,
-				FEAE4D3EB1A102E62140A55F /* DKKeyframeAnimationFunction.swift */,
-				36171A11C53DE0B6C4255B1B /* UIView+AnimationKit.swift */,
-				1119383A669CC5AE41C3E401 /* Support Files */,
+				E7A493DAD801F477D9A18D55 /* Info.plist */,
+				D82E253F4E276DDA34CA2D27 /* Pods-Shmile-Spring.modulemap */,
+				F6B219052F919C764C0C46AA /* Pods-Shmile-Spring.xcconfig */,
+				1DD820EA396AFDE336E0D063 /* Pods-Shmile-Spring-Private.xcconfig */,
+				B06E36728D2A90CD16EB8EA2 /* Pods-Shmile-Spring-dummy.m */,
+				36EA6AB7EEA58BD745166E2E /* Pods-Shmile-Spring-prefix.pch */,
+				2B8AB4582763E75C19241366 /* Pods-Shmile-Spring-umbrella.h */,
 			);
-			path = DKChainableAnimationKit;
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Shmile-Spring";
 			sourceTree = "<group>";
 		};
-		BF624559DEA48A26392944A8 /* Support Files */ = {
+		1C19F69636D30F669DDB00B4 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3D98AB2A22B61265CC619024 /* Info.plist */,
-				C168B1D1E7DD08E76A90DE78 /* Pods-Shmile-Socket.IO-Client-Swift.modulemap */,
-				FC83D3C64594C6FC739CCD0D /* Pods-Shmile-Socket.IO-Client-Swift.xcconfig */,
-				543D82708CC348F0ABB9CD56 /* Pods-Shmile-Socket.IO-Client-Swift-Private.xcconfig */,
-				1824AA87FE374C080CC9493E /* Pods-Shmile-Socket.IO-Client-Swift-dummy.m */,
-				BD6F87019C996C1087D4CEBB /* Pods-Shmile-Socket.IO-Client-Swift-prefix.pch */,
-				55DB32FBB5D3AF8612EFDA19 /* Pods-Shmile-Socket.IO-Client-Swift-umbrella.h */,
+				5C03A396B658D3773EBEDF7C /* Pods-Shmile */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4B2AD511027002E0BED5F072 = {
+			isa = PBXGroup;
+			children = (
+				1FDC857319A22B71772B4479 /* Podfile */,
+				095D7C8E19BC7D8FAD379C3C /* Frameworks */,
+				4C8F54F37EA2DFD009444636 /* Pods */,
+				786FB33ADABF4D7E0D6E6426 /* Products */,
+				1C19F69636D30F669DDB00B4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		4C8F54F37EA2DFD009444636 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93A3A276FC8F475FD556F271 /* Socket.IO-Client-Swift */,
+				7152E415ECAD1C06331CD52E /* Spring */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		56E9DEFF32DA67EB2AB0C45B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				914F1E7D3F5CD4565DC78624 /* Info.plist */,
+				86D017BC6FBF5A9F23456694 /* Pods-Shmile-Socket.IO-Client-Swift.modulemap */,
+				D9740DA14524107696EF1674 /* Pods-Shmile-Socket.IO-Client-Swift.xcconfig */,
+				54DAC021A73DE600F141205E /* Pods-Shmile-Socket.IO-Client-Swift-Private.xcconfig */,
+				5800F8046243338713CD8E9B /* Pods-Shmile-Socket.IO-Client-Swift-dummy.m */,
+				A3F4F18B205C96A5D4F22381 /* Pods-Shmile-Socket.IO-Client-Swift-prefix.pch */,
+				3E4058E228A9C4672D7F1C80 /* Pods-Shmile-Socket.IO-Client-Swift-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-Shmile-Socket.IO-Client-Swift";
 			sourceTree = "<group>";
 		};
-		D85819C5193DC6B5E7235AEB /* Pods */ = {
+		5C03A396B658D3773EBEDF7C /* Pods-Shmile */ = {
 			isa = PBXGroup;
 			children = (
-				A9B296F5E3D5C6DFEA6D478F /* DKChainableAnimationKit */,
-				27E0191BC587FAEC71EEFA07 /* Socket.IO-Client-Swift */,
+				A0065C35BD77B61A99EC5835 /* Info.plist */,
+				9F537251CBEBA048C22FDB6B /* Pods-Shmile.modulemap */,
+				F89F486B3C9C330EE7738909 /* Pods-Shmile-acknowledgements.markdown */,
+				A7C5F5E432B91E41C5EDE2B4 /* Pods-Shmile-acknowledgements.plist */,
+				624A022A3CDE7CF06401668B /* Pods-Shmile-dummy.m */,
+				5596E72F3822405D5158FD95 /* Pods-Shmile-environment.h */,
+				62635CFCE5C44469766ECB72 /* Pods-Shmile-frameworks.sh */,
+				FAAD1BDE518D3B41CCFAC3C2 /* Pods-Shmile-resources.sh */,
+				B25BA194EBE45A92EEEB744E /* Pods-Shmile-umbrella.h */,
+				9DAA230B3DFD1861BE44A173 /* Pods-Shmile.debug.xcconfig */,
+				3D9C58696F04A969ACD6C368 /* Pods-Shmile.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Pods-Shmile";
+			path = "Target Support Files/Pods-Shmile";
 			sourceTree = "<group>";
 		};
-		E22F02C245304152EF821AF6 /* Targets Support Files */ = {
+		7152E415ECAD1C06331CD52E /* Spring */ = {
 			isa = PBXGroup;
 			children = (
-				3EF02F0369F1894121249DE7 /* Pods-Shmile */,
+				BF24F5A0BB1F1ACA1478E14B /* AsyncButton.swift */,
+				574D13CC108A0A94D12B4BD9 /* AsyncImageView.swift */,
+				8FE0BA86CAD8477C5CFC8C94 /* AutoTextView.swift */,
+				31169F96330486A78C5CE1D5 /* BlurView.swift */,
+				9AA29E68C65640F3EF7317C5 /* DesignableButton.swift */,
+				A58E32851972925B966F5959 /* DesignableImageView.swift */,
+				9E71857001B40AFC3F127983 /* DesignableLabel.swift */,
+				E24BEA413869890352BE2F41 /* DesignableTabBarController.swift */,
+				F7F4AB587AD6B4F3C686AC08 /* DesignableTextField.swift */,
+				AF216AF6D654EF09405CA210 /* DesignableTextView.swift */,
+				261FC30E47ADB9A8BA0E5F27 /* DesignableView.swift */,
+				EB44E9706EC9B376FC99AC73 /* ImageLoader.swift */,
+				39853393C98030E9A30859BA /* KeyboardLayoutConstraint.swift */,
+				21B02A6CD5548E3703D2B6EB /* LoadingView.swift */,
+				FCAE4682E119EC2EC016633D /* Misc.swift */,
+				BB27F8B4D5225FA635AE222D /* SoundPlayer.swift */,
+				B389F5AA47DE7AD05788E569 /* Spring.swift */,
+				6319905C8BA4B4C687305E41 /* SpringAnimation.swift */,
+				F6AAFC78E589BB8BB60B9853 /* SpringButton.swift */,
+				280AE50D674C6BBEAA7D24CE /* SpringImageView.swift */,
+				A9CC361CB083D38BF17FD1FB /* SpringLabel.swift */,
+				CCC2A32954B5826C629E1791 /* SpringTextField.swift */,
+				1492BAA1E171963E4378BE28 /* SpringTextView.swift */,
+				9A06DA28C080C2A204A24040 /* SpringView.swift */,
+				A279C9088C5E167FA365503C /* TransitionManager.swift */,
+				DF1569C2A6DA9DE442E0FD3A /* TransitionZoom.swift */,
+				D1D18A26FA13C606F4A53B17 /* UnwindSegue.swift */,
+				E71DB5F6044C8BDEB4A5F7CE /* Resources */,
+				14A6E96FFA5F8B9B945200E7 /* Support Files */,
 			);
-			name = "Targets Support Files";
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		786FB33ADABF4D7E0D6E6426 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E81F80D11416352288DE13F3 /* Pods_Shmile.framework */,
+				F98B0C1FBE3426B2DF6ECDC9 /* Socket_IO_Client_Swift.framework */,
+				16A77DC79E662B56693CC35D /* Spring.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C6F29C0D607059CCAD58F9C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1B4EB546C7CFD891F51255EC /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		93A3A276FC8F475FD556F271 /* Socket.IO-Client-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				51ED803456CD8489C4A2B45B /* SocketAckManager.swift */,
+				873F369D68007DE3CD85900B /* SocketAnyEvent.swift */,
+				DE99DEB1519701D3BA6E364C /* SocketEngine.swift */,
+				4162221639E2C3F7428DC486 /* SocketEngineClient.swift */,
+				0203B06D22C3BC0DB37FE265 /* SocketEventHandler.swift */,
+				0CDD3C9B129A27A7E2AAB833 /* SocketFixUTF8.swift */,
+				7304D3452F7B2ACA7DA76E3D /* SocketIOClient.swift */,
+				A6E9C69DDC998C0BA6482157 /* SocketLogger.swift */,
+				C7EC69C2C7D2A4E42210DDB7 /* SocketPacket.swift */,
+				740B278696A7E06C4F4E7091 /* SocketParser.swift */,
+				D5EA8F62C5182563297106C0 /* SocketTypes.swift */,
+				954274A9D1FFF2CD20790406 /* SwiftRegex.swift */,
+				0F5F99208FD47893EA3E59BA /* WebSocket.swift */,
+				56E9DEFF32DA67EB2AB0C45B /* Support Files */,
+			);
+			path = "Socket.IO-Client-Swift";
+			sourceTree = "<group>";
+		};
+		E71DB5F6044C8BDEB4A5F7CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4636350BA41EAB8B9AD3E881 /* Images.xcassets */,
+				149C557E90B3B0E0EA9CAC36 /* LoadingView.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		839DBC2D4777405E06ABC9C9 /* Headers */ = {
+		1710B5D5ABB96788B3759992 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9703BE10392E62665D3C835 /* Pods-Shmile-umbrella.h in Headers */,
+				FCA7ACCAA8962704BCF72FC7 /* Pods-Shmile-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEB83CC79D0E800EFEA8E95F /* Headers */ = {
+		1B1D8A162F7AB9D0460FB453 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2374CF82F246443C5F65B639 /* Pods-Shmile-Socket.IO-Client-Swift-umbrella.h in Headers */,
+				EAEAA54A0DADD5371B21AF10 /* Pods-Shmile-Socket.IO-Client-Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8700006EDAF6CDA5EB86811 /* Headers */ = {
+		BDB7D0EA0777DD50360220AA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A7E797FACDBDD02DC5AF2E1 /* Pods-Shmile-DKChainableAnimationKit-umbrella.h in Headers */,
+				234B22E119DF14A5011DCEE0 /* Pods-Shmile-Spring-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		190176A1F477257E0828ABA7 /* Pods-Shmile-Socket.IO-Client-Swift */ = {
+		0AA18432CDC87E49E0012BD1 /* Pods-Shmile-Socket.IO-Client-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D96FE49DC01FE1CCD5708A2 /* Build configuration list for PBXNativeTarget "Pods-Shmile-Socket.IO-Client-Swift" */;
+			buildConfigurationList = 1BD5AD9F90BC0170CE8BD069 /* Build configuration list for PBXNativeTarget "Pods-Shmile-Socket.IO-Client-Swift" */;
 			buildPhases = (
-				3F78454D174A7D7B2910E602 /* Sources */,
-				DA33F2E052760051699DACEE /* Frameworks */,
-				AEB83CC79D0E800EFEA8E95F /* Headers */,
+				F696AE4B2BF538167C47B24C /* Sources */,
+				DFFBD554729064662B4F2565 /* Frameworks */,
+				1B1D8A162F7AB9D0460FB453 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -328,141 +393,171 @@
 			);
 			name = "Pods-Shmile-Socket.IO-Client-Swift";
 			productName = "Pods-Shmile-Socket.IO-Client-Swift";
-			productReference = BFF8D592B5AEC5B1D22A50D8 /* Socket_IO_Client_Swift.framework */;
+			productReference = F98B0C1FBE3426B2DF6ECDC9 /* Socket_IO_Client_Swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3285124D207E69AF3820ABC1 /* Pods-Shmile-DKChainableAnimationKit */ = {
+		CF33152956634168D8C57ECB /* Pods-Shmile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C672BEDA030CC0DC0B7D57FB /* Build configuration list for PBXNativeTarget "Pods-Shmile-DKChainableAnimationKit" */;
+			buildConfigurationList = 0BA4C9910AC8C2D74EAC0269 /* Build configuration list for PBXNativeTarget "Pods-Shmile" */;
 			buildPhases = (
-				987C6DD8964106D2444D4553 /* Sources */,
-				3F7C7570409528286E03045D /* Frameworks */,
-				C8700006EDAF6CDA5EB86811 /* Headers */,
+				319F2155F515B418EAB0E336 /* Sources */,
+				293454A1A2D2B3AD9B12585D /* Frameworks */,
+				1710B5D5ABB96788B3759992 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-Shmile-DKChainableAnimationKit";
-			productName = "Pods-Shmile-DKChainableAnimationKit";
-			productReference = 7104485A07F4BECCC5BB45EF /* DKChainableAnimationKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		76E259EC8023F7AFF5428B6C /* Pods-Shmile */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FF222B3790B1E2A3A296BB46 /* Build configuration list for PBXNativeTarget "Pods-Shmile" */;
-			buildPhases = (
-				20F65908775979DF33A3C7F4 /* Sources */,
-				3947F25161586586982DD4B1 /* Frameworks */,
-				839DBC2D4777405E06ABC9C9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				95167FD6940B8E90E8DB9F06 /* PBXTargetDependency */,
-				7446D9C71341E6667D2F95A5 /* PBXTargetDependency */,
+				EB517AE53F61937BF0871BD1 /* PBXTargetDependency */,
+				4F658C9A97D7A0CE7DC2E575 /* PBXTargetDependency */,
 			);
 			name = "Pods-Shmile";
 			productName = "Pods-Shmile";
-			productReference = ED91E48FCA491D1B6A509F39 /* Pods_Shmile.framework */;
+			productReference = E81F80D11416352288DE13F3 /* Pods_Shmile.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E64158E1A57BEF6FAA5241D0 /* Pods-Shmile-Spring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D3D5D7AE7D092184639483 /* Build configuration list for PBXNativeTarget "Pods-Shmile-Spring" */;
+			buildPhases = (
+				C2B76D571DF9B93281C018E7 /* Sources */,
+				B10EB4BA5800F351DC25A6A3 /* Frameworks */,
+				2232C20D8FDFE029DA0B20B9 /* Resources */,
+				BDB7D0EA0777DD50360220AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Shmile-Spring";
+			productName = "Pods-Shmile-Spring";
+			productReference = 16A77DC79E662B56693CC35D /* Spring.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FB0543370882935E7F461372 /* Project object */ = {
+		DF83CAC55AEA21F87A737885 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 0BEE6F8BA01BFE189BAA78FA /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4EA7FC4063195BFBEFB36FAB /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 17579722CC6C0ACCF59978B0;
-			productRefGroup = 7116ECB8BDD3052DB0D724D3 /* Products */;
+			mainGroup = 4B2AD511027002E0BED5F072;
+			productRefGroup = 786FB33ADABF4D7E0D6E6426 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				76E259EC8023F7AFF5428B6C /* Pods-Shmile */,
-				3285124D207E69AF3820ABC1 /* Pods-Shmile-DKChainableAnimationKit */,
-				190176A1F477257E0828ABA7 /* Pods-Shmile-Socket.IO-Client-Swift */,
+				CF33152956634168D8C57ECB /* Pods-Shmile */,
+				0AA18432CDC87E49E0012BD1 /* Pods-Shmile-Socket.IO-Client-Swift */,
+				E64158E1A57BEF6FAA5241D0 /* Pods-Shmile-Spring */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		2232C20D8FDFE029DA0B20B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292CCAC7C5FAB747F37B7673 /* Images.xcassets in Resources */,
+				C5E1105C0CE7790934CE9EE6 /* LoadingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		20F65908775979DF33A3C7F4 /* Sources */ = {
+		319F2155F515B418EAB0E336 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D372CE8EADE15A1EE3CCF968 /* Pods-Shmile-dummy.m in Sources */,
+				56546D8D0AF5ADDC4CEEFE01 /* Pods-Shmile-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F78454D174A7D7B2910E602 /* Sources */ = {
+		C2B76D571DF9B93281C018E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF4D571709253F5EC0815628 /* Pods-Shmile-Socket.IO-Client-Swift-dummy.m in Sources */,
-				A1AE892CCC75889321F34591 /* SocketAckManager.swift in Sources */,
-				E92FFE24C6DE38CF02558449 /* SocketAnyEvent.swift in Sources */,
-				D7C6CA6D92BCB3EE298E530B /* SocketEngine.swift in Sources */,
-				9D60288BA60F14839CDA8D40 /* SocketEngineClient.swift in Sources */,
-				B141111CFF95669389D9DB81 /* SocketEventHandler.swift in Sources */,
-				8F9C8ADFB77299465E8C1B41 /* SocketFixUTF8.swift in Sources */,
-				4A723265617C2B36490C78C9 /* SocketIOClient.swift in Sources */,
-				D04D7765AD27E700EAF880E1 /* SocketLogger.swift in Sources */,
-				8A5B61707E32A6C72CE2B74C /* SocketPacket.swift in Sources */,
-				0B9C75CFB70CB222A1054BD1 /* SocketParser.swift in Sources */,
-				69D81A609E6C02E851D3CAF3 /* SocketTypes.swift in Sources */,
-				9213F9A32CB95997FD80B3BC /* SwiftRegex.swift in Sources */,
-				58CB429A41A8C076A14EE3B9 /* WebSocket.swift in Sources */,
+				79BC682D18C3893CA8121272 /* AsyncButton.swift in Sources */,
+				299094BA88D52C94E0D33629 /* AsyncImageView.swift in Sources */,
+				5CCC2F094CD5DAE90B07DF22 /* AutoTextView.swift in Sources */,
+				4C023D9286A12ABEFA04205D /* BlurView.swift in Sources */,
+				4E56368ED4814E8033BB3FFE /* DesignableButton.swift in Sources */,
+				65281EF1CF4F42F2B1C1DCBB /* DesignableImageView.swift in Sources */,
+				9178C7EA015F0497EEC41937 /* DesignableLabel.swift in Sources */,
+				70E556BF59149C13EDC662B8 /* DesignableTabBarController.swift in Sources */,
+				CDCE373677F07F27C0740505 /* DesignableTextField.swift in Sources */,
+				6FB89663B4ED7D2392D3D837 /* DesignableTextView.swift in Sources */,
+				829DE3BABC5ACFB51722EBF1 /* DesignableView.swift in Sources */,
+				2841A151F946EB29436A0B32 /* ImageLoader.swift in Sources */,
+				A19C5F568B018397D9E68E89 /* KeyboardLayoutConstraint.swift in Sources */,
+				03E45C8499B1FA5F379D09AE /* LoadingView.swift in Sources */,
+				3FAC13805C792A1A8D45F83D /* Misc.swift in Sources */,
+				94E144B5F196F52771349520 /* Pods-Shmile-Spring-dummy.m in Sources */,
+				79B948956079BB359C5B4E6A /* SoundPlayer.swift in Sources */,
+				0104A4E8E7535AFA6491C465 /* Spring.swift in Sources */,
+				745C76B93B9E59750EACB4BD /* SpringAnimation.swift in Sources */,
+				3B1EC8AB627208949A864777 /* SpringButton.swift in Sources */,
+				3387ACF97EE5496312E4CF03 /* SpringImageView.swift in Sources */,
+				92115C1013860B8F99986D34 /* SpringLabel.swift in Sources */,
+				1AA9B3809CC853866415ADE2 /* SpringTextField.swift in Sources */,
+				97EC8055CDC7FDF44515CD95 /* SpringTextView.swift in Sources */,
+				C60C9B4D38E98195DB96F683 /* SpringView.swift in Sources */,
+				56CF1E85654B5601A95F3893 /* TransitionManager.swift in Sources */,
+				A1C67C8C58CD40E76600E64B /* TransitionZoom.swift in Sources */,
+				E9FD2DDCF58D223CAB92AE71 /* UnwindSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		987C6DD8964106D2444D4553 /* Sources */ = {
+		F696AE4B2BF538167C47B24C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				394D2EC93A18172570278656 /* DKChainableAnimationKit+Anchor.swift in Sources */,
-				5978A8933C7538FBD1CF0741 /* DKChainableAnimationKit+Bezier.swift in Sources */,
-				BBC5F17018BDFBC1525EF889 /* DKChainableAnimationKit+Effects.swift in Sources */,
-				AC10FB8698FCEA4E6597E759 /* DKChainableAnimationKit+Extra.swift in Sources */,
-				87CBDBD143B90F7CACBC5660 /* DKChainableAnimationKit+Frame.swift in Sources */,
-				1CED18AF2423F1EE0FDB810D /* DKChainableAnimationKit+Transform.swift in Sources */,
-				BC54B6D2632E345EDF40136B /* DKChainableAnimationKit.swift in Sources */,
-				7C58CBCC61F17ADF16744F23 /* DKKeyFrameAnimation.swift in Sources */,
-				D9B7DC7E1632F922B0406545 /* DKKeyframeAnimationFunction.swift in Sources */,
-				B87177225FB97714D172B96D /* Pods-Shmile-DKChainableAnimationKit-dummy.m in Sources */,
-				DA25344B37E0A9C601B8935F /* UIView+AnimationKit.swift in Sources */,
+				F88A9494D069A2770C47FC4C /* Pods-Shmile-Socket.IO-Client-Swift-dummy.m in Sources */,
+				5B317C56C0C113EF69E4C5A5 /* SocketAckManager.swift in Sources */,
+				176CFB90FD131F997C4A2621 /* SocketAnyEvent.swift in Sources */,
+				82D86D21F93551FC8B29365C /* SocketEngine.swift in Sources */,
+				B0C3596FFF03222DC4625574 /* SocketEngineClient.swift in Sources */,
+				6785AAB04CD31041A7709676 /* SocketEventHandler.swift in Sources */,
+				63A73C6E560215CF33B82442 /* SocketFixUTF8.swift in Sources */,
+				CE70BA33DF7A6F0C583D51FE /* SocketIOClient.swift in Sources */,
+				7CCD1F3C9C9618368FDDAD17 /* SocketLogger.swift in Sources */,
+				D498D46789E0EA1E4A0B8A6C /* SocketPacket.swift in Sources */,
+				C4F7F8E6174921D77BF9BAC6 /* SocketParser.swift in Sources */,
+				8532417A017D13BDBEE11167 /* SocketTypes.swift in Sources */,
+				9DB72E9E3068924C56A318C5 /* SwiftRegex.swift in Sources */,
+				BC43405291A0F92F8E58DC10 /* WebSocket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7446D9C71341E6667D2F95A5 /* PBXTargetDependency */ = {
+		4F658C9A97D7A0CE7DC2E575 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Shmile-Spring";
+			target = E64158E1A57BEF6FAA5241D0 /* Pods-Shmile-Spring */;
+			targetProxy = C16813EA1ACFB0C888F2F5B1 /* PBXContainerItemProxy */;
+		};
+		EB517AE53F61937BF0871BD1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Shmile-Socket.IO-Client-Swift";
-			target = 190176A1F477257E0828ABA7 /* Pods-Shmile-Socket.IO-Client-Swift */;
-			targetProxy = A3E393F69F35E81F28EAE2EA /* PBXContainerItemProxy */;
-		};
-		95167FD6940B8E90E8DB9F06 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Shmile-DKChainableAnimationKit";
-			target = 3285124D207E69AF3820ABC1 /* Pods-Shmile-DKChainableAnimationKit */;
-			targetProxy = B8CF91BC386C1222FA2A4A38 /* PBXContainerItemProxy */;
+			target = 0AA18432CDC87E49E0012BD1 /* Pods-Shmile-Socket.IO-Client-Swift */;
+			targetProxy = D7C432FA060C83EC1E2C986F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2462AFF39E1C54E92E3132A9 /* Release */ = {
+		1349BD9F89EAA9A47839EDA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB20F702FFD138D978472D8E /* Pods-Shmile.release.xcconfig */;
+			baseConfigurationReference = 1DD820EA396AFDE336E0D063 /* Pods-Shmile-Spring-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -471,25 +566,24 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Shmile/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shmile-Spring/Pods-Shmile-Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Shmile-Spring/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Shmile/Pods-Shmile.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Shmile;
+				MODULEMAP_FILE = "Target Support Files/Pods-Shmile-Spring/Pods-Shmile-Spring.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Spring;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		48120162EF0EA75E96D2008C /* Release */ = {
+		1930070153A8F841469E8A02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -523,9 +617,9 @@
 			};
 			name = Release;
 		};
-		75895FFF7B4D6A1C4D72E365 /* Debug */ = {
+		3FE4A9766F76995DB924CD00 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FEFD60250CCDC3B871C5FFD /* Pods-Shmile-DKChainableAnimationKit-Private.xcconfig */;
+			baseConfigurationReference = 54DAC021A73DE600F141205E /* Pods-Shmile-Socket.IO-Client-Swift-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -534,14 +628,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shmile-DKChainableAnimationKit/Pods-Shmile-DKChainableAnimationKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Shmile-DKChainableAnimationKit/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Pods-Shmile-Socket.IO-Client-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Shmile-DKChainableAnimationKit/Pods-Shmile-DKChainableAnimationKit.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Pods-Shmile-Socket.IO-Client-Swift.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DKChainableAnimationKit;
+				PRODUCT_NAME = Socket_IO_Client_Swift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -551,7 +645,7 @@
 			};
 			name = Debug;
 		};
-		7AB09936570DD3CF00AFA2DC /* Debug */ = {
+		4EF4DA9DBD5038FCEF8D33EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -590,9 +684,92 @@
 			};
 			name = Debug;
 		};
-		7F8F0EAC58B3E437FC22A98C /* Debug */ = {
+		6163292F0ECA8AE7C1CB2A57 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93252A84FF8B9FBE64213AF4 /* Pods-Shmile.debug.xcconfig */;
+			baseConfigurationReference = 1DD820EA396AFDE336E0D063 /* Pods-Shmile-Spring-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shmile-Spring/Pods-Shmile-Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Shmile-Spring/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Shmile-Spring/Pods-Shmile-Spring.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B77B1B1FCD372F5521EC2A0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9C58696F04A969ACD6C368 /* Pods-Shmile.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Shmile/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Shmile/Pods-Shmile.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Shmile;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0281A6BA1380CF5C1D187C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54DAC021A73DE600F141205E /* Pods-Shmile-Socket.IO-Client-Swift-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Pods-Shmile-Socket.IO-Client-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Pods-Shmile-Socket.IO-Client-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Socket_IO_Client_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE3885BF7240CB89F78F0365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DAA230B3DFD1861BE44A173 /* Pods-Shmile.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -620,128 +797,46 @@
 			};
 			name = Debug;
 		};
-		9E4C7B09EA9F4ACD704A969A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FEFD60250CCDC3B871C5FFD /* Pods-Shmile-DKChainableAnimationKit-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shmile-DKChainableAnimationKit/Pods-Shmile-DKChainableAnimationKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Shmile-DKChainableAnimationKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Shmile-DKChainableAnimationKit/Pods-Shmile-DKChainableAnimationKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = DKChainableAnimationKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C75101AEBB005A8ED88A74D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 543D82708CC348F0ABB9CD56 /* Pods-Shmile-Socket.IO-Client-Swift-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Pods-Shmile-Socket.IO-Client-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Pods-Shmile-Socket.IO-Client-Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Socket_IO_Client_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F51B9FBC260C546772F7D445 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 543D82708CC348F0ABB9CD56 /* Pods-Shmile-Socket.IO-Client-Swift-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Pods-Shmile-Socket.IO-Client-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Shmile-Socket.IO-Client-Swift/Pods-Shmile-Socket.IO-Client-Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Socket_IO_Client_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BEE6F8BA01BFE189BAA78FA /* Build configuration list for PBXProject "Pods" */ = {
+		0BA4C9910AC8C2D74EAC0269 /* Build configuration list for PBXNativeTarget "Pods-Shmile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7AB09936570DD3CF00AFA2DC /* Debug */,
-				48120162EF0EA75E96D2008C /* Release */,
+				DE3885BF7240CB89F78F0365 /* Debug */,
+				B77B1B1FCD372F5521EC2A0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D96FE49DC01FE1CCD5708A2 /* Build configuration list for PBXNativeTarget "Pods-Shmile-Socket.IO-Client-Swift" */ = {
+		1BD5AD9F90BC0170CE8BD069 /* Build configuration list for PBXNativeTarget "Pods-Shmile-Socket.IO-Client-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F51B9FBC260C546772F7D445 /* Debug */,
-				C75101AEBB005A8ED88A74D2 /* Release */,
+				3FE4A9766F76995DB924CD00 /* Debug */,
+				D0281A6BA1380CF5C1D187C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C672BEDA030CC0DC0B7D57FB /* Build configuration list for PBXNativeTarget "Pods-Shmile-DKChainableAnimationKit" */ = {
+		4EA7FC4063195BFBEFB36FAB /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75895FFF7B4D6A1C4D72E365 /* Debug */,
-				9E4C7B09EA9F4ACD704A969A /* Release */,
+				4EF4DA9DBD5038FCEF8D33EE /* Debug */,
+				1930070153A8F841469E8A02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF222B3790B1E2A3A296BB46 /* Build configuration list for PBXNativeTarget "Pods-Shmile" */ = {
+		50D3D5D7AE7D092184639483 /* Build configuration list for PBXNativeTarget "Pods-Shmile-Spring" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F8F0EAC58B3E437FC22A98C /* Debug */,
-				2462AFF39E1C54E92E3132A9 /* Release */,
+				1349BD9F89EAA9A47839EDA3 /* Debug */,
+				6163292F0ECA8AE7C1CB2A57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FB0543370882935E7F461372 /* Project object */;
+	rootObject = DF83CAC55AEA21F87A737885 /* Project object */;
 }
