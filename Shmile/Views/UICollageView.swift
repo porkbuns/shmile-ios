@@ -87,6 +87,7 @@ class UICollageView: SpringView {
           callback?(iv)
         })
       })
+      zoomedIndex = index
       return
     }
     
@@ -102,19 +103,13 @@ class UICollageView: SpringView {
     zoomedIndex = index
   }
   
-  func zoomImage(index: Int) {
-    if (zoomedIndex != nil) {
-      let rect = imageFrames[zoomedIndex!]
-      let imageView = imageViews[zoomedIndex!]
-      UIView.animateWithDuration(0.3, animations: { () -> Void in
-        imageView.frame = rect
-      })
-    }
+  func setZoomedImage(imagePath:String, callback: ((Bool) -> (Void))?) {
+    let url = NSURL(string: imagePath)
+    let data = NSData(contentsOfURL: url!)
     
-    let imageView = imageViews[index]
-    UIView.animateWithDuration(0.3) { () -> Void in
-      imageView.frame = CGRectMake(self.padding, self.padding, self.frame.size.width - 2 * self.padding, self.frame.size.height - 2 * self.padding)
-    }
-    zoomedIndex = index
+    let iv = imageViews[zoomedIndex!]
+    UIView.transitionWithView(iv, duration: 0.3, options: UIViewAnimationOptions.TransitionCrossDissolve, animations: { () -> Void in
+      iv.image = UIImage(data: data!)
+    }, completion: callback)
   }
 }

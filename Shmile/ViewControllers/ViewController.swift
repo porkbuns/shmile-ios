@@ -12,7 +12,8 @@ import Spring
 
 class ViewController: UIViewController {
   var buttonView:SpringButton!
-  let socket = SocketIOClient(socketURL: "localhost:3000")
+  let socketManager = SocketManager.sharedInstance
+  let socket = SocketManager.sharedInstance.socket
   var collageView:UICollageView!
   
   override func viewDidLoad() {
@@ -31,11 +32,46 @@ class ViewController: UIViewController {
   }
   
   override func viewDidAppear(animated: Bool) {
-    SocketManager.sharedInstance.setupSocket()
-    self.buttonView.animation = "slideUp"
-    self.buttonView.animateNext { () -> () in
+    socket.on("connect") { data, ack in
+      println("Socket Connected")
       self.buttonView.enabled = true
     }
+    
+    socket.on("photo_saved") { data, ack in
+      if let photoData = data?[0] as? NSDictionary {
+        println("Photo Data: \(photoData)")
+        self.collageView.setZoomedImage(SocketManager.serverPath + (photoData["web_url"] as! String)) { done in
+          if let index = self.collageView.zoomedIndex {
+            let nextIndex = index + 1
+            if (nextIndex < 4) {
+              self.collageView.zoomOnImage(nextIndex, callback: { iv in
+                SocketManager.startCapture()
+              })
+            }
+            else {
+              println("Capture done")
+              self.collageView.unzoom({
+                UIView.animateWithDuration(0.5, animations: { () -> Void in
+                  self.collageView.transform = CGAffineTransformMakeTranslation(-self.view.frame.size.width, 0)
+                  }) { done in
+                    println("DONE")
+                    self.buttonView.animation = "slideUp"
+                    self.buttonView.animate()
+                }
+              })
+            }
+          }
+        }
+      }
+    }
+    
+    socket.onAny { (event: SocketAnyEvent) -> Void in
+      println("Socket Event: \(event.event!), Data: \(event.items)")
+    }
+    
+    SocketManager.sharedInstance.setupSocket()
+    self.buttonView.animation = "slideUp"
+    self.buttonView.animate()
   }
 
   override func didReceiveMemoryWarning() {
@@ -64,30 +100,10 @@ class ViewController: UIViewController {
     UIView.animateWithDuration(0.3, animations: { () -> Void in
       self.collageView.transform = CGAffineTransformMakeTranslation(0, 0)
       }, completion: { (value: Bool) in
-              NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: Selector("changeZoom:"), userInfo: 0, repeats: false)
-    })
-  }
-  
-  func changeZoom(timer: NSTimer) {
-    let index = timer.userInfo as? Int
-    if (index < 4) {
-      collageView.zoomOnImage(index!, callback: { (iv: UIImageView) -> Void in
-        //iv.image = UIImage(named: "test_image")
-        UIView.transitionWithView(iv, duration: 0.5, options: UIViewAnimationOptions.TransitionCrossDissolve, animations: { () -> Void in
-          iv.image = UIImage(named: "test_image")
-          }, completion: nil)
-      })
-      NSTimer.scheduledTimerWithTimeInterval(1.5, target: self, selector: Selector("changeZoom:"), userInfo: index! + 1, repeats: false)
-    }
-    else {
-      collageView.unzoom({ () in
-        UIView .animateWithDuration(0.3, animations: { () -> Void in
-          self.collageView.transform = CGAffineTransformMakeTranslation(-self.view.frame.size.width, 0)
-          }, completion: { (value: Bool) in
-            self.createCollageView()
+        self.collageView.zoomOnImage(0, callback: { iv in
+          SocketManager.startCapture()
         })
-      })
-    }
+    })
   }
 }
 
