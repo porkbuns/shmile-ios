@@ -15,6 +15,7 @@ class ViewController: UIViewController {
   let socketManager = SocketManager.sharedInstance
   let socket = SocketManager.sharedInstance.socket
   var collageView:UICollageView!
+  var countdownLabel:UICountdownLabel!
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -25,10 +26,20 @@ class ViewController: UIViewController {
     buttonView.backgroundColor = UIColor.blueColor()
     buttonView.layer.cornerRadius = 25
     buttonView.layer.borderWidth = 2
+    buttonView.titleLabel?.font = UIFont(name: "HelveticaNeue", size: 40)
     buttonView.setTitle("Begin", forState: UIControlState.Normal)
     buttonView.addTarget(self, action: "onBeginClicked", forControlEvents: UIControlEvents.TouchUpInside)
     buttonView.enabled = false
     self.view.addSubview(buttonView)
+    
+    countdownLabel = UICountdownLabel(frame: CGRectMake(0, 0, size.width, size.height))
+    countdownLabel.backgroundColor = UIColor.clearColor()
+    countdownLabel.textColor = UIColor.whiteColor()
+    countdownLabel.textAlignment = NSTextAlignment.Center
+    countdownLabel.font = UIFont(name: "HelveticaNeue", size: 96)
+    countdownLabel.text = "Hello"
+    countdownLabel.alpha = 0
+    self.view.addSubview(countdownLabel)
   }
   
   override func viewDidAppear(animated: Bool) {
@@ -45,7 +56,9 @@ class ViewController: UIViewController {
             let nextIndex = index + 1
             if (nextIndex < 4) {
               self.collageView.zoomOnImage(nextIndex, callback: { iv in
-                SocketManager.startCapture()
+                self.countdownLabel.countdown(3) { done in
+                  SocketManager.startCapture()
+                }
               })
             }
             else {
@@ -96,12 +109,15 @@ class ViewController: UIViewController {
   func createCollageView() {
     collageView = UICollageView(frame: self.view.bounds.rectByInsetting(dx: 20, dy: 20))
     self.view.addSubview(collageView)
+    self.view.bringSubviewToFront(countdownLabel)
     collageView.transform = CGAffineTransformMakeTranslation(self.view.frame.size.width, 0)
     UIView.animateWithDuration(0.3, animations: { () -> Void in
       self.collageView.transform = CGAffineTransformMakeTranslation(0, 0)
       }, completion: { (value: Bool) in
         self.collageView.zoomOnImage(0, callback: { iv in
-          SocketManager.startCapture()
+          self.countdownLabel.countdown(3) { done in
+            SocketManager.startCapture()
+          }
         })
     })
   }
