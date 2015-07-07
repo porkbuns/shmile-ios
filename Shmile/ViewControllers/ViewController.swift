@@ -64,13 +64,7 @@ class ViewController: UIViewController {
             else {
               println("Capture done")
               self.collageView.unzoom({
-                UIView.animateWithDuration(0.5, animations: { () -> Void in
-                  self.collageView.transform = CGAffineTransformMakeTranslation(-self.view.frame.size.width, 0)
-                  }) { done in
-                    println("DONE")
-                    self.buttonView.animation = "slideUp"
-                    self.buttonView.animate()
-                }
+                self.postCapture()
               })
             }
           }
@@ -87,6 +81,40 @@ class ViewController: UIViewController {
     self.buttonView.animate()
   }
 
+  func postCapture() {
+//    let alert = UIAlertView(title: "Send Photo", message: "Enter your email below to receive a copy of your photo!", delegate: self, cancelButtonTitle: "OK")
+//    alert.alertViewStyle = UIAlertViewStyle.PlainTextInput
+//    let textField = alert.textFieldAtIndex(0)
+//    textField?.placeholder = "E-mail"
+//    alert.show()
+    let alert = UIAlertController(title: "Send Photo", message: "Enter your email below to receive a copy of your photo!", preferredStyle: UIAlertControllerStyle.Alert)
+    alert.addTextFieldWithConfigurationHandler { (textField) -> Void in
+      textField.placeholder = "Email Address"
+    }
+    
+    alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: { (action) -> Void in
+      let tf = alert.textFields![0] as! UITextField
+      NSLog("Send email to " + tf.text)
+      self.reset()
+    }))
+    
+    alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.Cancel, handler: { (action) -> Void in
+      self.reset()
+    }))
+    
+    self.presentViewController(alert, animated: true, completion: nil)
+  }
+  
+  func reset() {
+    UIView.animateWithDuration(0.5, animations: { () -> Void in
+      self.collageView.transform = CGAffineTransformMakeTranslation(-self.view.frame.size.width, 0)
+      }) { done in
+        println("DONE")
+        self.buttonView.animation = "slideUp"
+        self.buttonView.animate()
+    }
+  }
+  
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.

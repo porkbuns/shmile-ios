@@ -10,12 +10,16 @@ import Foundation
 import Socket_IO_Client_Swift
 
 class SocketManager {
-  static let serverPath = "http://localhost:3000"
+  static let serverPath = "http://192.168.1.151:3000"
   static let sharedInstance = SocketManager()
   let socket = SocketIOClient(socketURL: serverPath)
 
   func setupSocket() {
-    socket.connect()
+    socket.connect(timeoutAfter: 1) { () -> Void in
+      NSLog("Socket connect timed out...")
+      let alert = UIAlertView(title: "Connection Error", message: "Could not connect to server at \(SocketManager.serverPath). Please ensure it is running.", delegate: self, cancelButtonTitle: "OK")
+      alert.show()
+    }
   }
   
   static func startCapture() {
