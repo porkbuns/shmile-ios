@@ -8,6 +8,7 @@
 
 import UIKit
 import Spring
+import Skeets
 
 class UICollageView: SpringView {
   let aspectRatio:CGFloat = 1.5
@@ -15,6 +16,7 @@ class UICollageView: SpringView {
   var zoomedIndex:Int?
   var imageViews = [UIImageView]()
   var imageFrames = [CGRect]()
+  var overlayView:UIImageView!
 
     /*
     // Only override drawRect: if you perform custom drawing.
@@ -41,6 +43,11 @@ class UICollageView: SpringView {
     self.addSubview(genImageView(CGRectMake(padding * 2 + imageWidth, padding, imageWidth, imageHeight)))
     self.addSubview(genImageView(CGRectMake(padding, padding * 2 + imageHeight, imageWidth, imageHeight)))
     self.addSubview(genImageView(CGRectMake(padding * 2 + imageWidth, padding * 2 + imageHeight, imageWidth, imageHeight)))
+    
+    overlayView = UIImageView(frame: self.bounds)
+    overlayView.backgroundColor = UIColor.clearColor()
+    overlayView.hidden = true
+    self.addSubview(overlayView)
   }
   
   required init(coder aDecoder: NSCoder) {
@@ -107,9 +114,22 @@ class UICollageView: SpringView {
     let url = NSURL(string: imagePath)
     let data = NSData(contentsOfURL: url!)
     
-    let iv = imageViews[zoomedIndex!]
-    UIView.transitionWithView(iv, duration: 0.3, options: UIViewAnimationOptions.TransitionCrossDissolve, animations: { () -> Void in
-      iv.image = UIImage(data: data!)
-    }, completion: callback)
+    ImageManager.fetch(imagePath, progress: nil, success: { data in
+      let iv = self.imageViews[self.zoomedIndex!]
+      UIView.transitionWithView(iv, duration: 0.3, options: UIViewAnimationOptions.TransitionCrossDissolve, animations: { () -> Void in
+        iv.image = UIImage(data: data)
+        }, completion: callback)
+    }, failure: nil)
+  }
+  
+  func showOverlay(completion: ((Bool) -> Void)?) {
+    ImageManager.fetch(SocketManager.serverPath + "/images/overlay.png", progress: nil, success: { data in
+      self.overlayView.image = UIImage(data: data)
+      self.overlayView.hidden = false
+      self.overlayView.alpha = 0.0
+      UIView.animateWithDuration(0.3, animations: { () -> Void in
+        self.overlayView.alpha = 1.0
+        }, completion: completion)
+    }, failure: nil)
   }
 }

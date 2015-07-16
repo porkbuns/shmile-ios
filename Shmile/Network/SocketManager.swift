@@ -10,7 +10,7 @@ import Foundation
 import Socket_IO_Client_Swift
 
 class SocketManager {
-  static let serverPath = "http://192.168.1.151:3000"
+  static let serverPath = "http://localhost:3000"
   static let sharedInstance = SocketManager()
   let socket = SocketIOClient(socketURL: serverPath)
 

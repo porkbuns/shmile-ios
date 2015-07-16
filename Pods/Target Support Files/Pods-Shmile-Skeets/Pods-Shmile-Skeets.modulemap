@@ -1,0 +1,6 @@
+framework module Skeets {
+  umbrella header "Pods-Shmile-Skeets-umbrella.h"
+
+  export *
+  module * { export * }
+}

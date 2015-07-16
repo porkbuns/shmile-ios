@@ -22,12 +22,13 @@ class ViewController: UIViewController {
     // Do any additional setup after loading the view, typically from a nib.
 
     let size = self.view.frame.size
-    buttonView = SpringButton(frame: CGRectMake((size.width - 300) / 2, (size.height - 100) / 2, 300, 100))
-    buttonView.backgroundColor = UIColor.blueColor()
+    buttonView = SpringButton(frame: CGRectMake((size.width - 400) / 2, (size.height - 100) / 2, 400, 100))
+    buttonView.backgroundColor = UIColor(hex: "F5BE1B")
     buttonView.layer.cornerRadius = 25
     buttonView.layer.borderWidth = 2
     buttonView.titleLabel?.font = UIFont(name: "HelveticaNeue", size: 40)
-    buttonView.setTitle("Begin", forState: UIControlState.Normal)
+    buttonView.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
+    buttonView.setTitle("Click to Start!", forState: UIControlState.Normal)
     buttonView.addTarget(self, action: "onBeginClicked", forControlEvents: UIControlEvents.TouchUpInside)
     buttonView.enabled = false
     self.view.addSubview(buttonView)
@@ -82,11 +83,13 @@ class ViewController: UIViewController {
   }
 
   func postCapture() {
-//    let alert = UIAlertView(title: "Send Photo", message: "Enter your email below to receive a copy of your photo!", delegate: self, cancelButtonTitle: "OK")
-//    alert.alertViewStyle = UIAlertViewStyle.PlainTextInput
-//    let textField = alert.textFieldAtIndex(0)
-//    textField?.placeholder = "E-mail"
-//    alert.show()
+    // Composite the image
+    collageView.showOverlay { (Bool) -> Void in
+      self.postComposite()
+    }
+  }
+  
+  func postComposite() {
     let alert = UIAlertController(title: "Send Photo", message: "Enter your email below to receive a copy of your photo!", preferredStyle: UIAlertControllerStyle.Alert)
     alert.addTextFieldWithConfigurationHandler { (textField) -> Void in
       textField.placeholder = "Email Address"
@@ -109,7 +112,6 @@ class ViewController: UIViewController {
     UIView.animateWithDuration(0.5, animations: { () -> Void in
       self.collageView.transform = CGAffineTransformMakeTranslation(-self.view.frame.size.width, 0)
       }) { done in
-        println("DONE")
         self.buttonView.animation = "slideUp"
         self.buttonView.animate()
     }
@@ -135,7 +137,24 @@ class ViewController: UIViewController {
   }
   
   func createCollageView() {
-    collageView = UICollageView(frame: self.view.bounds.rectByInsetting(dx: 20, dy: 20))
+    // Collage view needs to be 4x6 so we find the largest fitting size
+    let availHeight = self.view.bounds.height - 40
+    let availWidth = self.view.bounds.width - 40
+    
+    
+    // We are height limited
+    var width:CGFloat = 0
+    var height:CGFloat = 0
+    if (availWidth / availHeight > 1.5) {
+      width = availHeight * 1.5
+      height = availHeight
+    }
+    else {
+      width = availWidth
+      height = (2 * availWidth) / 3
+    }
+    
+    collageView = UICollageView(frame: CGRectMake((self.view.bounds.width - width) / 2, (self.view.bounds.height - height) / 2, width, height))
     self.view.addSubview(collageView)
     self.view.bringSubviewToFront(countdownLabel)
     collageView.transform = CGAffineTransformMakeTranslation(self.view.frame.size.width, 0)

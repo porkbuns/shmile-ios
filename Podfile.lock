@@ -1,16 +1,22 @@
 PODS:
+  - Skeets (0.9.5):
+    - SwiftHTTP (~> 0.9.5)
   - Socket.IO-Client-Swift (2.3.6)
   - Spring (1.0.3)
+  - SwiftHTTP (0.9.5)
   - SwiftyJSON (2.2.0)
 
 DEPENDENCIES:
+  - Skeets (~> 0.9.5)
   - Socket.IO-Client-Swift (~> 2.3.6)
   - Spring (~> 1.0.3)
   - SwiftyJSON (~> 2.2.0)
 
 SPEC CHECKSUMS:
+  Skeets: 99fcf722fea6b4d4a379b22845e4258e7337fbb2
   Socket.IO-Client-Swift: a96239c5a07672ecc0fa8a61f80c6139cfe1f569
   Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftHTTP: cd7b248bc07db02926ff54cf19b580b78f7abfa1
   SwiftyJSON: 0b3e6c07af17ff745e77e8e9984097b55c956e5c
 
 COCOAPODS: 0.37.1
