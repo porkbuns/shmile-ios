@@ -27,4 +27,17 @@ class SocketManager {
       NSLog("Data: " + data!.description)
     }
   }
+  
+  static func composite(email: String?) {
+    if let e = email {
+      sharedInstance.socket.emitWithAck("composite", e)(timeout: 0) { data in
+        NSLog("Data: " + data!.description)
+      }
+    }
+    else {
+      sharedInstance.socket.emitWithAck("composite")(timeout: 0) { data in
+        NSLog("Data: " + data!.description)
+      }
+    }
+  }
 }

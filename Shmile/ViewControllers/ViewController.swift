@@ -90,6 +90,12 @@ class ViewController: UIViewController {
   }
   
   func postComposite() {
+    self.delay(1.0) { () -> () in
+      self.showEmailPopup()
+    }
+  }
+  
+  func showEmailPopup() {
     let alert = UIAlertController(title: "Send Photo", message: "Enter your email below to receive a copy of your photo!", preferredStyle: UIAlertControllerStyle.Alert)
     alert.addTextFieldWithConfigurationHandler { (textField) -> Void in
       textField.placeholder = "Email Address"
@@ -98,14 +104,22 @@ class ViewController: UIViewController {
     alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: { (action) -> Void in
       let tf = alert.textFields![0] as! UITextField
       NSLog("Send email to " + tf.text)
-      self.reset()
+      SocketManager.composite(tf.text)
+      self.postEmail()
     }))
     
     alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.Cancel, handler: { (action) -> Void in
-      self.reset()
+      SocketManager.composite(nil)
+      self.postEmail()
     }))
     
     self.presentViewController(alert, animated: true, completion: nil)
+  }
+  
+  func postEmail() {
+    self.delay(0.5) { () -> () in
+      self.reset()
+    }
   }
   
   func reset() {
